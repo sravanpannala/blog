@@ -1,0 +1,92 @@
+# The URL the site will be built for
+base_url = "https://blog.sradjoker.cc"
+
+# The site title and description; used in feeds by default.
+title = "sradjoker's blog"
+description = "Linux, Single Board Computers and Tech related stuff"
+
+# Theme
+theme= "archie-zola"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+taxonomies = [
+    {name = "tags"}
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# highlight_theme = "OneHalfDark"
+
+[extra]
+
+# control dark mode: auto | dark | toggle
+mode = "toggle"
+
+subtitle = "Linux and Tech related stuff"
+
+# interal CDN resource
+useCDN = false
+
+favicon = "/icon/favicon.png"
+
+copyright = "Sravan"
+
+ga = "G-6YGDB8SLBT"
+
+# config menu path
+[[extra.menu]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[extra.menu]]
+name = "All posts"
+url = "/posts/"
+weight = 2
+
+[[extra.menu]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[extra.menu]]
+name = "About"
+url = "/about/"
+weight = 4
+
+[[extra.menu]]
+name = "Now"
+url = "/now/"
+weight = 5
+
+[[extra.menu]]
+name = "Uses"
+url = "/uses/"
+weight = 6
+
+
+
+# config social icon info in the footer
+[[extra.social]]
+icon = "github"
+name = "GitHub"
+url = "https://github.com/sravanpannala"
+
+[[extra.social]]
+icon = "twitter"
+name = "Twitter"
+url = "https://twitter.com/sradjoker"
+
+# [[extra.social]]
+#  icon = "gitlab"
+# name = "GitLab"
+# url = "https://gitlab.com/sradjoker"
+
