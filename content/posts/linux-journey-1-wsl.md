@@ -17,11 +17,11 @@ From Microsoft's [documentation](https://docs.microsoft.com/en-us/windows/wsl/):
 > WSL or Windows Subsystem for Linux lets users run a Linux environment directly on Windows without the overhead of a traditional virtual machine or dual-boot setup. WSL is a type 1 hypervisor VM, which means no compatibility layer between itself and hardware. So, you are getting 100% of the performance, and it's as close to bare metal as a VM can be. 
 
 To get started just enter this command in a PowerShell:
-```powershell
+```ps1
 wsl --install
 ```
 To see a list of available distros:
-```powershell
+```ps1
 wsl --list --online
 
 NAME            FRIENDLY NAME
@@ -35,15 +35,15 @@ Ubuntu-18.04    Ubuntu 18.04 LTS
 Ubuntu-20.04    Ubuntu 20.04 LTS
 ```
 Then you can install your choice of distro (for example Ubuntu):
-```powershell
+```ps1
 wsl --install -d Ubuntu
 ```
 Finally, ensure that you are using WSL 2:
-```powershell
+```ps1
 wsl --set-version <distro name> 2
 ```
 You can then enter wsl with this simple command:
-```powershell
+```ps1
 wsl
 ```
 This takes you to Ubuntu's command line in the terminal you are using on Windows. 
@@ -70,7 +70,7 @@ From the VS Code [documentation](https://code.visualstudio.com/docs/remote/wsl):
 > The Visual Studio Code Remote - WSL extension lets you use the Windows Subsystem for Linux (WSL) as your full-time development environment right from VS Code. You can develop in a Linux-based environment, use Linux-specific toolchains and utilities, and run and debug your Linux-based applications all from the comfort of Windows.
 
 It is as simple as installing `Visual Studio Code Remote - WSL extension` in your VS Code on Windows and then inside WSL navigate to your project folder and type:
-```powershell
+```ps1
 code .
 ```
 This command opens your project folder that is on WSL in VS Code running on Windows. The best thing about this is that the experience is almost the same as working in VS Code normally on your project in Windows. All your VS Code settings, themes and extensions are there for your to use. The except is that some extensions like Python extension have to be installed seperately in WSL but that is sas simple as clicking a button. 
