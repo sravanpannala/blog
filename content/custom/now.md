@@ -4,10 +4,19 @@ date = "2022-07-03"
 path = "now"
 +++
 
+## August 2022
+- Created a custom Arch repo for hosting self built packages use mainly for testing purposes.
+- Started adding Pinebook Pro support to EndeavourOS
+- Using systemd nspawn to build packages in a clean chroot
+- Setting up cloudflare workers to mirror my custom Arch repo
+
 ## July 2022
 - Using Calamares in x64 environment for the complete installation of EndeavourOS ARM
 - Using icecream distributed compiler and ccache to speed put package builds
 - Exploring WireGuard based VPN Tailscale to connect multiple computers in different network so as to use them for distributed compiling
+- Learning and using PyQt
+- Exploring file permissions on Linux
+- Finish setting up my blog and server
 
 ## June 2022
 - Preparing for EndeavourOS Artemis Release
