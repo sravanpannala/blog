@@ -47,9 +47,9 @@ useCDN = false
 
 favicon = "/icon/favicon.png"
 
-copyright = "keith"
+copyright = "sradjoker"
 
-ga = "G-6YGDB8SLBT"
+# ga = "G-6YGDB8SLBT"
 
 [extra.translations]
 languages = [{name = "en", url = "/"}]

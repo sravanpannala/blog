@@ -51,7 +51,7 @@ If you want to cross compile using `icecream` use the instructions in the next s
 ## Configure toolchain for cross compiling
 The most common cross-compiling scenario is using `x64` computers to compile for `aarch64` since arm computers are generally not powerful. To compile `aarch64` on `x64` you first need to configure a cross-compiler toolchain. There is an AUR package that does most of it for you. You can install it by running
 ```
-yay -S distccd-arch-arm
+yay -S distccd-alarm-armv8
 ```
 ## Creating icecream environment
 Next you need to create an `icecream` environment to tell `icecream` that it has to use the cross-compiler instead of the normal x64 compiler. That can be done using
@@ -92,8 +92,15 @@ One of the common issues is firewall blocking the ports for `icecream` so make s
 UDP Source Port 8765
 ```
 
-## Conclusion
+# Conclusion
 I hope you enjoy your newfound power to build packages quickly even on less powerful computers. One advantage on the above setup is that even building of AUR packages using AUR helpers like `yay` or `paru` will now use distributed compiling which will make your normal updates faster.
 
 Final words:
 > Compile Responsibly
+
+# Resources
+- [GitHub - icecc/icecream: Distributed compiler with a central scheduler to share build load](https://github.com/icecc/icecream)
+- [Archwiki - distcc cross compiling](https://wiki.archlinux.org/title/Distcc#Cross_compiling_with_distcc)
+- [Cross-compiling with icecream - Samuel Iglesias Gonsálvez's blog](https://blogs.igalia.com/siglesias/2021/12/09/Cross-compiling-with-icecream/)
+- [The C/C++ Developer’s Guide to Avoiding Office Swordfights – Part 2: icecream](https://www.methodpark.de/blog/the-c-c-developers-guide-to-avoiding-office-swordfights-part-2-icecream/)
+- [icecc setup how to](https://savago.wordpress.com/2012/11/23/icecc-setup-how-to/)
