@@ -3,6 +3,8 @@ title = "My Linux Journey 2: Elementary OS"
 date = "2022-08-13"
 description = "Part 2 of how I started using Linux"
 
+draft = true
+
 [taxonomies]
 tags = ["linux-journey"]
 +++
@@ -20,7 +22,7 @@ Now, I had to find a distro to install. So I did what I usually do when searchin
 So, why did I choose elOS. First, it was Ubuntu based. Second, it was recommended by many articles and videos saying it was very easy to use. Third, it looked really good on the screenshots. Finally, the most important reason was that the UI looks similar to macOS. I had never used macOS before and didn't want to buy a Mac. So using something that looks like it was the next best thing to do.
 
 # Installing ElementaryOS
-Because I was new to this, the first thing I looked at was a tool to burn the ISO on.
+Because I was new to this, the first thing I looked at was a tool to burn the ISO on. I eventually settled on Balena Etcher since it was widely recommended. 
 
 # Review
 
