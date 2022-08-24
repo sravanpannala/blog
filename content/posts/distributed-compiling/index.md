@@ -1,6 +1,6 @@
 +++
 title = "Distributed Cross-compiling using Icecream"
-date = "2022-08-23"
+date = "2022-08-24"
 description = "Using icecream for distributed compiling to speed up package compilation times on Arm machines"
 
 [taxonomies]
@@ -11,20 +11,20 @@ tags = ["guides","arm"]
 This blog post is a guide on using [Icecream](https://github.com/icecc/icecream) for both distributed compiling and distributed cross compiling to speed up package compilation times on your linux machines. Even though the commands used are specific to Arch Linux based systems, this guide can be adopted to any Linux distribution.
 
 # Introduction
-I'm a developer for EndeavourOS Arm. I have to build some Arm SBC specific kernels to support those devices. But compiling Linux kernel on the Raspberry Pi takes about 2 hours. I wanted to reduce this compile time. A common way to do it is to use distributed cross-compiling. This means that we will use an x86_64 machine to the arm computer to build packages. Most people use [distcc](https://wiki.archlinux.org/title/Distcc) to perform this task. There are a few issues with distcc including by inability to make [ccache](https://wiki.archlinux.org/title/ccache) work to further improve build times made me look for an alternative and thus I found `icecream`.
+I'm a developer for EndeavourOS Arm. I have to build some Arm SBC specific kernels to support those devices. But compiling Linux kernel on the Raspberry Pi takes about 2 hours. I wanted to reduce this compile time. A common way to do it is to use distributed cross-compiling. This means that we will use an x86_64 machine to the arm computer to build packages. Most people use [distcc](https://wiki.archlinux.org/title/Distcc) to perform this task. There are a few issues with distcc including my inability to make [ccache](https://wiki.archlinux.org/title/ccache) work (ccache is a compiler cache whic further improves build times), made me look for an alternative and thus I found `icecream`.
 
 # Why Icecream?
 There are a few issues I have with `distcc`:
-- You have to edit the configuration in all the computers in the cluster if even if your adding a single new node. This makes the configurations hard to maintain and to scale. There is no need to do this in `icecream`. We just have to configure the new node. It automatically gets detected by other computers in the cluster.
-- There is no load scheduler in `distcc` i.e. the jobs get distributed to all computers in the order decicded by the configuration even if the computer listed first in the config is already under heavy load. In `icecream` there is a centralized scheduler. This scheduler decides which computer to send the job to depending on several factors including node speed and availability. From `icecream`'s readme:
+- You have to edit the configuration in all the computers in the cluster if even if you're adding a single new node. This makes the configurations hard to maintain and to scale. There is no need to do this in `icecream`. We just have to configure the new node being added. The node automatically gets detected by other computers in the cluster.
+- There is no load scheduler in `distcc` i.e. the jobs get distributed to all computers in the order decided by the configuration even if the computer listed first in the config is already under heavy load. In `icecream` there is a centralized scheduler. This scheduler decides which computer to send the job to depending on several factors including node speed and availability. From `icecream`'s readme:
 >  Icecream uses a central server that dynamically schedules the compile jobs to the fastest free server. 
-- I wasn't able to get ccache working with `distcc` when I'm using makepkg. I tried reading several wiki's and tutorial and couldn't figure it out. Then Peter from CachyOS told me that `icecream` supports ccache and it's easier to configure it. This was the main reason I started exploring `icecream`. 
+- I wasn't able to get ccache working with `distcc` when I'm using `makepkg` (the tool used to build packages on Arch Linux based systems). I tried reading several wikis and tutorials and couldn't figure it out. Then Peter from CachyOS told me that `icecream` supports ccache and it's easier to configure it. This was the main reason I started exploring `icecream`. 
  
 I hope that this guide will help you get started on your distributed compiling/cross-compiling endeavour with `icecream`.
 
 # Setup
 Lets go through the initial setup of `icecream`.
-1. Install icecream on all the computers you want to include in the compilation cluster. On Arch Linux based systems icecream is available in the AUR.
+1. Install icecream on all the computers you want to include in the compilation cluster. On Arch Linux based systems `icecream` is available in the AUR.
 ```bash
 yay -S icecream
 ```
@@ -45,9 +45,11 @@ ICECREAM_MAX_JOBS="number"
 ```bash
 sudo systemctl enable --now icecream.service
 ```
-1. Now you have `icecream` and `icecream-scheduler` running on your network. But you can't start using it for building packages before more configuration that I will show in the next section 
+Now you have `icecream` and `icecream-scheduler` running on your network. But you can't start using it for building packages before more configuration that I will show in the next section.
+
 # Configuration
 If you want to cross compile using `icecream` use the instructions in the next subsection. If all the nodes in your cluster are of the same architecture, you can skip it.
+
 ## Configure toolchain for cross compiling
 The most common cross-compiling scenario is using `x64` computers to compile for `aarch64` since arm computers are generally not powerful. To compile `aarch64` on `x64` you first need to configure a cross-compiler toolchain. There is an AUR package that does most of it for you. You can install it by running
 ```
@@ -78,7 +80,7 @@ export ICECC_VERSION=<path to local icecream environment>,x86_64:<path to cross 
 ```
 
 ## Configuring makepkg
-Finally you need to configure `makepkg` (the tool used to build packages on Arch Linux based systems) to run more job parallelly. This can be done by editing `/etc/makepkg.conf` like so:
+Finally you need to configure `makepkg` to run more job parallelly. This can be done by editing `/etc/makepkg.conf` like so:
 ```
 MAKEFLAGS="-jN"
 ```
@@ -87,7 +89,7 @@ where `N` is the number of jobs. A rule of thumb here is to set it as number of 
 # Monitoring
 Congratulations on getting this far. Now you can use `makepkg` to build packages using `icecream`. You can monitor it using either `icemon` or `icecream-sundae` that you may have installed earlier. `icemon` screen looks like this:
 ![](./dist_comp_1.png)
-One of the common issues is firewall blocking the ports for `icecream` so make sure that this port is open on all nodes. 
+One of the common issues is the firewall blocking the ports for `icecream` so make sure that this port is open on all nodes. 
 ```
 UDP Source Port 8765
 ```
