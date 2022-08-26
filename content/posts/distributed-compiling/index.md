@@ -1,7 +1,7 @@
 +++
 title = "Distributed Cross-compiling using Icecream"
 date = "2022-08-24"
-description = "Using icecream for distributed compiling to speed up package compilation times on Arm machines"
+description = "Using icecream for distributed compiling to speed up package compilation times on ARM machines"
 
 [taxonomies]
 tags = ["guides","arm"]
@@ -11,7 +11,7 @@ tags = ["guides","arm"]
 This blog post is a guide on using [Icecream](https://github.com/icecc/icecream) for both distributed compiling and distributed cross compiling to speed up package compilation times on your linux machines. Even though the commands used are specific to Arch Linux based systems, this guide can be adopted to any Linux distribution.
 
 # Introduction
-I'm a developer for EndeavourOS Arm. I have to build some Arm SBC specific kernels to support those devices. But compiling Linux kernel on the Raspberry Pi takes about 2 hours. I wanted to reduce this compile time. A common way to do it is to use distributed cross-compiling. This means that we will use an x86_64 machine to the arm computer to build packages. Most people use [distcc](https://wiki.archlinux.org/title/Distcc) to perform this task. There are a few issues with distcc including my inability to make [ccache](https://wiki.archlinux.org/title/ccache) work (ccache is a compiler cache which further improves build times), made me look for an alternative and thus I found `icecream`.
+I'm a developer for EndeavourOS ARM. I have to build some ARM SBC specific kernels to support those devices. But compiling Linux kernel on the Raspberry Pi takes about 2 hours. I wanted to reduce this compile time. A common way to do it is to use distributed cross-compiling. This means that we will use an x86_64 machine to the ARM computer to build packages. Most people use [distcc](https://wiki.archlinux.org/title/Distcc) to perform this task. There are a few issues with distcc including my inability to make [ccache](https://wiki.archlinux.org/title/ccache) work (ccache is a compiler cache which further improves build times), made me look for an alternative and thus I found `icecream`.
 
 # Why Icecream?
 There are a few issues I have with `distcc`:
@@ -51,7 +51,7 @@ Now you have `icecream` and `icecream-scheduler` running on your network. But yo
 If you want to cross compile using `icecream` use the instructions in the next subsection. If all the nodes in your cluster are of the same architecture, you can skip it.
 
 ## Configure toolchain for cross compiling
-The most common cross-compiling scenario is using `x64` computers to compile for `aarch64` since arm computers are generally not powerful. To compile `aarch64` on `x64` you first need to configure a cross-compiler toolchain. There is an AUR package that does most of it for you. You can install it by running
+The most common cross-compiling scenario is using `x64` computers to compile for `aarch64` since ARM computers are generally not powerful. To compile `aarch64` on `x64` you first need to configure a cross-compiler toolchain. There is an AUR package that does most of it for you. You can install it by running
 ```
 yay -S distccd-alarm-armv8
 ```
@@ -60,7 +60,7 @@ Next you need to create an `icecream` environment to tell `icecream` that it has
 ```
 /usr/lib/icecream/bin/icecc-create-env --gcc /opt/x-tools8/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc /opt/x-tools8/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-g++
 ```
-This will create a tarball with the environment, which you then have to copy over to each arm computer where you will run jobs from.
+This will create a tarball with the environment, which you then have to copy over to each ARM computer where you will run jobs from.
 If you want to use your local node for compiling you need to also generate a icecream environment for that. This step is not given in the official documentation but the local node wouldn't take part in compiling otherwise. You can do that by using:
 ```
 /usr/lib/icecream/bin/icecc --build-native
