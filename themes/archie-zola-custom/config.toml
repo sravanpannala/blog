@@ -1,12 +1,9 @@
 # The URL the site will be built for
-base_url = "https://blog.sradjoker.cc"
+base_url = "//archie-zola.vercel.app/"
 
 # The site title and description; used in feeds by default.
-title = "sradjoker's blog"
-description = "Linux, Single Board Computers and Tech related stuff"
-
-# Theme
-theme= "archie-zola-custom"
+title = "archie-zola"
+description = "A zola theme forked from [archie](https://github.com/athul/archie)"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -23,35 +20,21 @@ default_language = "en"
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-highlight_theme = "OneHalfDark"
-#highlight_theme = "css"
-
-highlight_themes_css = [
-  { theme = "OneHalfDark", filename = "syntax-theme-dark.css" },
-  { theme = "OneHalfLight", filename = "syntax-theme-light.css" },
-]
-
-#@import url("syntax-theme-dark.css") (prefers-color-scheme: dark);
-#@import url("syntax-theme-light.css") (prefers-color-scheme: light);
-
+highlight_theme = "OneHalfLight"
 
 [extra]
 
 # control dark mode: auto | dark | toggle
 mode = "toggle"
 
-subtitle = "Linux and Tech related stuff"
-
 # interal CDN resource
 useCDN = false
 
 favicon = "/icon/favicon.png"
 
-copyright = "sradjoker"
+copyright = "keith"
 
-keywords = "tech,linux"
-
-# ga = "G-6YGDB8SLBT"
+ga = "G-6YGDB8SLBT"
 
 [extra.translations]
 languages = [{name = "en", url = "/"}]
@@ -67,25 +50,22 @@ all_tags = "All tags"
 menus = [
     { name = "Home", url = "/", weight = 2 },
     { name = "All posts", url = "/posts", weight = 2 },
-    { name = "Tags", url = "/tags/", weight = 3 },
-    { name = "About", url = "/about/", weight = 4 },
-    { name = "Now", url = "/now/", weight = 5 },
-    { name = "Uses", url = "/uses/", weight = 6 },
+    { name = "About", url = "/about", weight = 3 },
+    { name = "Tags", url = "/tags", weight = 4 },
 ]
 
 # config social icon info in the footer
 [[extra.social]]
 icon = "github"
 name = "GitHub"
-url = "https://github.com/sravanpannala"
+url = "https://github.com/XXXMrG/archie-zola"
 
 [[extra.social]]
 icon = "twitter"
 name = "Twitter"
-url = "https://twitter.com/sradjoker"
+url = "https://github.com/XXXMrG/"
 
-# [[extra.social]]
-#  icon = "gitlab"
-# name = "GitLab"
-# url = "https://gitlab.com/sradjoker"
-
+[[extra.social]]
+icon = "gitlab"
+name = "GitLab"
+url = "https://gitlab.com/your-name/"
