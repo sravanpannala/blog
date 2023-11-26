@@ -6,7 +6,7 @@ title = "sradjoker's blog"
 description = "Linux, Single Board Computers and Tech related stuff"
 
 # Theme
-theme= "archie-zola-custom"
+theme= "archie-zola"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -48,8 +48,6 @@ useCDN = false
 favicon = "/icon/favicon.png"
 
 copyright = "sradjoker"
-
-keywords = "tech,linux"
 
 # ga = "G-6YGDB8SLBT"
 

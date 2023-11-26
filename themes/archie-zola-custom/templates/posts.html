@@ -1,6 +1,0 @@
-{% extends "index.html" %}
-
-{% block main_content %}
-    {% set section = get_section(path="posts/_index.md") %}
-    {{ post_macros::list_title(pages=section.pages) }}
-{% endblock main_content %}
