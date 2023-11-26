@@ -49,6 +49,12 @@ favicon = "/icon/favicon.png"
 
 copyright = "sradjoker"
 
+keywords = "tech,linux,nba,analytics,datavisualization"
+
+banner = true
+
+summary = true
+
 # ga = "G-6YGDB8SLBT"
 
 # math support
