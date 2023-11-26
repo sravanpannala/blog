@@ -1,6 +1,6 @@
 +++
 title = "Creating a Calibre Web Server"
-date = "2022-08-24"
+date = "2023-11-26"
 description = "Using Calibre to create a web server to access books anywhere in your local network"
 
 [taxonomies]
