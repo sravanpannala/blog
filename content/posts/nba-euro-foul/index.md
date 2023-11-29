@@ -12,6 +12,10 @@ This blog is an update to my [first](https://medium.com/basketballobservations/f
 ## Introduction
 Fastbreaks in basketball are fun, right? They produce highlight-reel dunks, posters, alley-oops, special passes, and more. It is breathtaking to see tall humans flying up the court with the ball and pulling out spectacular moves. Fastbreaks or transition basketball are also the most efficient way to score the basketball. On average, teams score more than [1.11 PPP](https://www.nba.com/stats/teams/transition?SeasonYear=2023-24&SeasonType=Regular+Season&sort=PPP&dir=1) (points per possession) in transition. So, what are defenses doing to counter this super-efficient type of offense? They are fouling intentionally early in the possession to stop the fastbreaks from even happening, i.e., nipping them in the bud.
 
+{{ youtube(id="Mo907oFXa-w") }}
+<p style="text-align: center;">Here you see the Jazz Euro-fouling Kevin Durant to stop the fastbreak</p>
+
+
 This intentional foul is called a Euro-foul. They are named that way because the Euro-foul originated from the European game. The NBA calls Euro fouls as transition take fouls and defines them as:
 > An intentional foul committed by a defender to deprive the offensive team of a fast-break opportunity
 
