@@ -4,7 +4,7 @@ date = "2023-11-26"
 description = "Using Ridge Regression to implement SRS method for adjusting offensive and defensive ratings for strength of schedule"
 
 [taxonomies]
-tags = ["NBA","SoS","Team Ratings","Analytics"]
+tags = ["NBA","SoS","Team Ratings"]
 +++
 
 This blog post goes through my process of adjusting NBA Teams' Offensive and Defensive Ratings for strength of schedule (SoS). This is the my first NBA post on this blog. Hopefully there will be more in the future. I'll try to update my earlier blog posts on my Medium blog [basketballobservations](https://medium.com/basketballobservations) here too. Those posts were when I was new to NBA analytics and python coding, and even blogging. I've improved a lot since and even written a few more blog posts, so hopefully the updated posts will be a lot better.

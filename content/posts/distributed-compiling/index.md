@@ -4,16 +4,16 @@ date = "2022-08-24"
 description = "Using icecream for distributed compiling to speed up package compilation times on ARM machines"
 
 [taxonomies]
-tags = ["guides","arm"]
+tags = ["linux","guides","arm"]
 
 +++
 
 This blog post is a guide on using [Icecream](https://github.com/icecc/icecream) for both distributed compiling and distributed cross compiling to speed up package compilation times on your linux machines. Even though the commands used are specific to Arch Linux based systems, this guide can be adopted to any Linux distribution.
 
-# Introduction
+## Introduction
 I'm a developer for EndeavourOS ARM. I have to build some ARM SBC specific kernels to support those devices. But compiling Linux kernel on the Raspberry Pi takes about 2 hours. I wanted to reduce this compile time. A common way to do it is to use distributed cross-compiling. This means that we will use an x86_64 machine in addition to the ARM computer to build packages. Most people use [distcc](https://wiki.archlinux.org/title/Distcc) to perform this task. There are a few issues with distcc including my inability to make [ccache](https://wiki.archlinux.org/title/ccache) work (ccache is a compiler cache which further improves build times), made me look for an alternative and thus I found `icecream`.
 
-# Why Icecream?
+## Why Icecream?
 There are a few issues I have with `distcc`:
 - You have to edit the configuration in all the computers in the cluster if even if you're adding a single new node. This makes the configurations hard to maintain and to scale. There is no need to do this in `icecream`. We just have to configure the new node being added. The node automatically gets detected by other computers in the cluster.
 - There is no load scheduler in `distcc` i.e. the jobs get distributed to all computers in the order decided by the configuration even if the computer listed first in the config is already under heavy load. In `icecream` there is a centralized scheduler. This scheduler decides which computer to send the job to depending on several factors including node speed and availability. From `icecream`'s readme:
@@ -22,7 +22,7 @@ There are a few issues I have with `distcc`:
  
 I hope that this guide will help you get started on your distributed compiling/cross-compiling endeavour with `icecream`.
 
-# Setup
+## Setup
 Lets go through the initial setup of `icecream`.
 1. Install icecream on all the computers you want to include in the compilation cluster. On Arch Linux based systems `icecream` is available in the AUR.
 ```bash
@@ -47,15 +47,15 @@ sudo systemctl enable --now icecream.service
 ```
 Now you have `icecream` and `icecream-scheduler` running on your network. But you can't start using it for building packages before more configuration that I will show in the next section.
 
-# Configuration
+## Configuration
 If you want to cross compile using `icecream` use the instructions in the next subsection. If all the nodes in your cluster are of the same architecture, you can skip it.
 
-## Configure toolchain for cross compiling
+### Configure toolchain for cross compiling
 The most common cross-compiling scenario is using `x64` computers to compile for `aarch64` since ARM computers are generally not powerful. To compile `aarch64` on `x64` you first need to configure a cross-compiler toolchain. There is an AUR package that does most of it for you. You can install it by running
 ```
 yay -S distccd-alarm-armv8
 ```
-## Creating icecream environment
+### Creating icecream environment
 Next you need to create an `icecream` environment to tell `icecream` that it has to use the cross-compiler instead of the normal x64 compiler. That can be done using
 ```
 /usr/lib/icecream/bin/icecc-create-env --gcc /opt/x-tools8/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc /opt/x-tools8/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-g++
@@ -65,7 +65,7 @@ If you want to use your local node for compiling you need to also generate a ice
 ```
 /usr/lib/icecream/bin/icecc --build-native
 ```
-## Configuring Path
+### Configuring Path
 Next, you need to configure the `path` in your computer to tell it to use icecream for compiling instead of the inbuilt compiler. This configuration will also setup `icecream` to use `ccache`. So first install `ccache`:
 ```
 yay -S ccache
@@ -79,14 +79,14 @@ export PATH=/usr/lib/ccache/bin/:$PATH
 export ICECC_VERSION=<path to local icecream environment>,x86_64:<path to cross icecream environment>
 ```
 
-## Configuring makepkg
+### Configuring makepkg
 Finally you need to configure `makepkg` to run more job parallelly. This can be done by editing `/etc/makepkg.conf` like so:
 ```
 MAKEFLAGS="-jN"
 ```
 where `N` is the number of jobs. A rule of thumb here is to set it as number of total threads available in the cluster.
 
-# Monitoring
+## Monitoring
 Congratulations on getting this far. Now you can use `makepkg` to build packages using `icecream`. You can monitor it using either `icemon` or `icecream-sundae` that you may have installed earlier. `icemon` screen looks like this:
 ![](./dist_comp_1.png)
 One of the common issues is the firewall blocking the ports for `icecream` so make sure that this port is open on all nodes. 
@@ -94,13 +94,13 @@ One of the common issues is the firewall blocking the ports for `icecream` so ma
 UDP Source Port 8765
 ```
 
-# Conclusion
+## Conclusion
 I hope you enjoy your newfound power to build packages quickly even on less powerful computers. One advantage on the above setup is that even building of AUR packages using AUR helpers like `yay` or `paru` will now use distributed compiling which will make your normal updates faster.
 
 Final words:
 > Compile Responsibly
 
-# Resources
+## Resources
 - [GitHub - icecc/icecream: Distributed compiler with a central scheduler to share build load](https://github.com/icecc/icecream)
 - [Archwiki - distcc cross compiling](https://wiki.archlinux.org/title/Distcc#Cross_compiling_with_distcc)
 - [Cross-compiling with icecream - Samuel Iglesias Gonsálvez's blog](https://blogs.igalia.com/siglesias/2021/12/09/Cross-compiling-with-icecream/)

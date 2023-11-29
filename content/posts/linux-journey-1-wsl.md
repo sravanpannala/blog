@@ -4,7 +4,7 @@ date = "2022-07-03"
 description = "Chronicling my linux journey"
 
 [taxonomies]
-tags = ["linux-journey"]
+tags = ["linux","linux-journey","WSL"]
 +++
 
 This is the first blog post in a series of posts that will be documenting my Linux journey. Let me start with how I discovered Linux and started using it.
