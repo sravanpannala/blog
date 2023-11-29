@@ -7,7 +7,7 @@ tags = ["NBA","SoS","Team Ratings"]
 +++
 
 - Updated Daily
-- Offensive, Defensive, and Net Ratings are adjusted for Strength of Schedule using an RAPM styled approach using Ridge Regression
+- Offensive, Defensive, and Net Ratings are adjusted for Strength of Schedule with an RAPM styled approach using Ridge Regression
 
 # NBA Adjusted Efficiency Interactive Landscape
 {{ datawrapper(id="XW5RE",no="1") }}
