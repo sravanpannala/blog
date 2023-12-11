@@ -36,7 +36,7 @@ Actually, we see similar trends even when teams attempt 5 more 3 pointers than t
 
 <img src="./nba_3pt_winning_5.png" width="500" height="400">
 
-Hence, we have to explore additional metrics like 3PM and 3P%.
+Hence, we have to explore additional metrics like 3PM and 3PT%.
 
 ## How often does a team win when it outscores its opponent from 3PT range:
 ### Team 3PM > Opponent 3PM
@@ -56,8 +56,8 @@ What if a team makes 2 more 3 pointers than their opponents:
 In such situations, we see that the teams win at anywhere between 70% and 74% of their games, which translates to 57.5 to 61 wins. If we consider an average win % of 72 we get to 59 wins, which is 4 wins higher than when teams just make more 3s than opponents. 
 
 ## How often does a team win when it is more accurate than its opponent from 3PT range:
-### Team 3P% > Opponent 3P%
-Next, I want to explore how important is the accuracy i.e. the 3PT percentage (3P%), rather than makes, is to team winning.
+### Team 3PT% > Opponent 3PT%
+Next, I want to explore how important is the accuracy i.e. the 3PT percentage (3PT%), rather than makes, is to team winning.
 Here is how often do teams win in those situations:
 
 <img src="./nba_3pt_winning_8.png" width="500" height="400">
@@ -66,19 +66,19 @@ We see that teams win anywhere between 68-74% when they make more 3s than their 
 
 Thus, we see that teams win at a slightly higher rate when they're more accurate from 3, compared to just making more 3s.  
 
-### Team 3P% > Opponent 3P% + 5%
-Now, what if team 3P% is 5% higher than opponent 3P%:
+### Team 3PT% > Opponent 3PT% + 5%
+Now, what if team 3PT% is 5% higher than opponent 3PT%:
 
 <img src="./nba_3pt_winning_9.png" width="500" height="400">
 
 In this situation, teams win anywhere between 72% and 81%, which is a much higher percentage than the previous situations explored.
 This is equivalent to 59-66.5 wins during an 82 game season. We observe an increasing trend in win% in this condition from 2014-2021, peaking at 80.8% during 2020-21 season. Then, there was a slight drop off to 79.8% during 2021-22 and 79.6% during 2022-23, before going through a sharp drop off to 72.8% for this season. Since, only a quarter of this season's game have been played as of today, there is a chance that this number might rise by the end of the season. I think we have to revisit and observe the trend at the end of the season.
 
-So, removing this season, the teams are winning at around 80%, equivalent to 65.5 wins when teams 3P% is 5% higher than opponent 3P%. This condition shows a much higher correlation to winning than the previous conditions considered, which were closer to 55-58 wins. 
+So, removing this season, the teams are winning at around 80%, equivalent to 65.5 wins when teams 3PT% is 5% higher than opponent 3PT%. This condition shows a much higher correlation to winning than the previous conditions considered, which were closer to 55-58 wins. 
 
 ## Conclusion
 
-Analyzing the 3PT trends over the past 10 seasons, we see that 3PT accuracy has a very high correlation to winning. Teams are winning 80% of their games when team 3P% is 5% higher than opponent 3P%, equivalent to 65.5 wins during an 82 game season. This number shows the importance of accurate 3PT shooting to winning in the NBA.
+Analyzing the 3PT trends over the past 10 seasons, we see that 3PT accuracy has a very high correlation to winning. Teams are winning 80% of their games when team 3PT% is 5% higher than opponent 3PT%, equivalent to 65.5 wins during an 82 game season. This number shows the importance of accurate 3PT shooting to winning in the NBA.
 
 Thank you for reading and any feedback is appreciated. You can reach me on Twitter at [@SravanNBA](https://twitter.com/SravanNBA).
 
