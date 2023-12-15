@@ -4,7 +4,7 @@ base_url = "https://blog.sradjoker.cc"
 # The site title and description; used in feeds by default.
 title = "Sravan's blog"
 description = "NBA, Linux, Single Board Computers and Tech related stuff"
-
+author = "Sravan"
 # Theme
 theme= "archie-zola"
 
@@ -17,6 +17,11 @@ build_search_index = true
 taxonomies = [{ name = "tags" }]
 
 default_language = "en"
+
+generate_feed = true
+
+feed_filename = "atom.xml"
+
 
 [markdown]
 # Whether to do syntax highlighting

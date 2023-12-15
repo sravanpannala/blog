@@ -28,7 +28,14 @@ tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
 - add image
 - The different colors in hex plots shows how efficient a player is wrt league average.
 - How is does it is bins the shots into different zones and calculates the `FG%` of all shots in the zone attempted by the player. It then compares it to the league average `FG%` of all shots in the zone attempted by all players in that season.
+- Here are the shot zones and the league averages shown in Steph Curry's shot-chart for the season:
+
+<img src="./nba_shot_quality_1.png" width="500" >
+
 -  This is actually the framework for a simple shot quality model and thus name `SSQM` (sounds like a good name for a model which is very simple/basic).
+
+
+## Developing the Shot Quality Model Metrics
 -  I will be using the league average `FG%` as expected `FG%` in my model and will refer it as `xFG` from now now.
 -  So the expected points scored are:
 
@@ -129,3 +136,10 @@ $$ \text{Points Added} = \text{Shot Making}\times FGA $$
 [Andrew Patton's Shot Quality Model Tutorial](https://github.com/anpatton/basic-nba-tutorials/tree/main/shot-quality)
 
 automatic nba for SSQM V1
+
+
+
+
+
+
+
