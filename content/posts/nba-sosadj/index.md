@@ -56,7 +56,7 @@ We have to add the intercept value to the team ratings the algorithm spits out t
 $$\hat{Team}^1_{aOFF} = w_0 + w_1 x_1$$
 $$\hat{Team}^2_{aDEF} = w_0 + w_2 x_2$$
 
-Finally we can caculate Net Rating as so:
+Finally we can calculate Net Rating as so:
 
 $$ Team_{aNET} = Team_{aOFF} - Team_{aDEF}$$
 
