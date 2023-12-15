@@ -11,7 +11,7 @@ tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
 
 ## Introduction
 - was digging into adjusted net ratings
-- knarsu3 uses qSQ and qSI in his luck adjusted team ratings 
+- knarsu3 uses `qSQ` and `qSI` in his luck adjusted team ratings 
 - have been interested in shot quality ever since
 - Second Spectrum and not public
 - So wanted to see if I can develop a model on my own
@@ -27,9 +27,9 @@ tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
 - I have been making NBA Hex Plots for more than 2 years now.
 - add image
 - The different colors in hex plots shows how efficient a player is wrt league average.
-- How is does it is bins the shots into different zones and calculates the FG% of all shots in the zone attempted by the player. It then compares it to the league average FG% of all shots in the zone attempted by all players in that season.
--  This is actually the framework for a simple shot quality model and thus name SSQM (sounds like a good name for a model which is very simple/basic).
--  I will be using the league average FG as expected FG% in my model and will refer it as xFG from now now.
+- How is does it is bins the shots into different zones and calculates the `FG%` of all shots in the zone attempted by the player. It then compares it to the league average `FG%` of all shots in the zone attempted by all players in that season.
+-  This is actually the framework for a simple shot quality model and thus name `SSQM` (sounds like a good name for a model which is very simple/basic).
+-  I will be using the league average `FG%` as expected `FG%` in my model and will refer it as `xFG` from now now.
 -  So the expected points scored are:
 
 {% katex(block=true) %}
@@ -39,24 +39,23 @@ xPTS=\begin{cases}
 \end{cases}
 {% end %} 
 
-- Effective field goal percentage (eFG) is calculated as:
+- Effective field goal percentage (`eFG`) is calculated as:
   
 $$ eFG = \frac{PTS}{2\times FGA} $$
 
-- Similarly expected eFG (xeFG) is calculated by replacing PTS with xPTS.
+- Similarly expected `eFG` (`xeFG`) is calculated by replacing `PTS` with `xPTS`.
   
 $$ xeFG = \frac{xPTS}{2\times FGA} $$
 
-- Points Added is defined as:
-
+- `Shot Making` is defined as:
 
 $$ \text{Shot Making} = \frac{PTS - xPTS}{FGA} $$
 
-- Points Added is defined as:
+- `Points Added` is defined as:
 
 $$ \text{Points Added} = PTS - xPTS $$
 
-- Another way of calculating Points Added:
+- Another way of calculating `Points Added`:
 
 $$ \text{Points Added} = \text{Shot Making}\times FGA $$
 
