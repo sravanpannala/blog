@@ -3,7 +3,7 @@ base_url = "https://blog.sradjoker.cc"
 
 # The site title and description; used in feeds by default.
 title = "Sravan's blog"
-description = "NBA, Linux, Single Board Computers and Tech related stuff"
+description = "NBA, Linux & Single Board Computers"
 author = "Sravan"
 # Theme
 theme= "archie-zola"
