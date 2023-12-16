@@ -4,6 +4,7 @@ base_url = "https://blog.sradjoker.cc"
 # The site title and description; used in feeds by default.
 title = "Sravan's blog"
 description = "NBA, Linux & Single Board Computers"
+author = "Sravan"
 
 # Theme
 theme= "archie-zola"
@@ -21,9 +22,6 @@ default_language = "en"
 generate_feed = true
 
 feed_filename = "atom.xml"
-
-[author]
-name = "Sravan"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -66,10 +64,6 @@ katex_auto_render = true
 
 [extra.translations]
 # languages = [{name = "en", url = "/"}]
-
-[extra.author]
-name = "Sravan"
-
 
 [[extra.translations.en]]
 show_more = "Read more ⟶"

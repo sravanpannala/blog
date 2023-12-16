@@ -2,8 +2,12 @@
 title = "NBA Strength of Schedule Adjusted Ratings Landscape and Table"
 date = "2023-11-28"
 description = "Daily Updated Interactive Efficiency Landscape and Ratings Table"
+
 [taxonomies]
 tags = ["NBA","SoS","Team Ratings"]
+[extra.author]
+name = "Sravan"
+social = "https://twitter.com/SravanNBA"
 +++
 
 - Updated Daily

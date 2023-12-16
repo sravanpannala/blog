@@ -5,7 +5,9 @@ description = "Using Calibre to create a web server to access books anywhere in 
 
 [taxonomies]
 tags = ["guides","linux","books"]
-
+[extra.author]
+name = "Sravan"
+social = "https://twitter.com/sradjoker"
 +++
 
 After spending almost 2 months exploring the wonderful world of Linux, I got back to the reason why I started my Linux Journey. That is to create a (Calibre Web Server)[https://manual.calibre-ebook.com/server.html] which I can access on any device at home and optionally anywhere in the world. For that the first step is to install calibre using the Arch Linux package manager/ AUR helper `yay`:

@@ -5,7 +5,9 @@ description = "Using icecream for distributed compiling to speed up package comp
 
 [taxonomies]
 tags = ["linux","guides","arm"]
-
+[extra.author]
+name = "Sravan"
+social = "https://twitter.com/sradjoker"
 +++
 
 This blog post is a guide on using [Icecream](https://github.com/icecc/icecream) for both distributed compiling and distributed cross compiling to speed up package compilation times on your linux machines. Even though the commands used are specific to Arch Linux based systems, this guide can be adopted to any Linux distribution.

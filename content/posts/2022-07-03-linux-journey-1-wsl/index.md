@@ -5,6 +5,9 @@ description = "Chronicling my linux journey"
 
 [taxonomies]
 tags = ["linux","linux-journey","WSL"]
+[extra.author]
+name = "Sravan"
+social = "https://twitter.com/sradjoker"
 +++
 
 This is the first blog post in a series of posts that will be documenting my Linux journey. Let me start with how I discovered Linux and started using it.

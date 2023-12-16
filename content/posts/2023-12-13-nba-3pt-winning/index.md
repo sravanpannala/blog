@@ -5,6 +5,9 @@ description = "Analyzing three point trends in the NBA and see how they relate t
 
 [taxonomies]
 tags = ["NBA","shooting","3PT","win-loss"]
+[extra.author]
+name = "Sravan"
+social = "https://twitter.com/SravanNBA"
 +++
 
 ## Introduction
