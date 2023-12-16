@@ -4,7 +4,7 @@ base_url = "https://blog.sradjoker.cc"
 # The site title and description; used in feeds by default.
 title = "Sravan's blog"
 description = "NBA, Linux & Single Board Computers"
-author = "Sravan"
+
 # Theme
 theme= "archie-zola"
 
@@ -22,6 +22,8 @@ generate_feed = true
 
 feed_filename = "atom.xml"
 
+[author]
+name = "Sravan"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -48,7 +50,7 @@ useCDN = false
 
 favicon = "/icon/favicon.png"
 
-copyright = "sradjoker"
+copyright = "Sravan"
 
 keywords = "tech,linux,nba,analytics,datavisualization,stats"
 
@@ -85,6 +87,11 @@ menus = [
 ]
 
 # config social icon info in the footer
+[[extra.social]]
+icon = "twitter"
+name = "Twitter"
+url = "https://twitter.com/SravanNBA"
+
 [[extra.social]]
 icon = "github"
 name = "GitHub"
