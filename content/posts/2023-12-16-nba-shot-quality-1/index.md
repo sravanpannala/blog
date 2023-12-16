@@ -30,7 +30,9 @@ tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
 - How is does it is bins the shots into different zones and calculates the `FG%` of all shots in the zone attempted by the player. It then compares it to the league average `FG%` of all shots in the zone attempted by all players in that season.
 - Here are the shot zones and the league averages shown in Steph Curry's shot-chart for the season:
 
-<img src="./nba_shot_quality_1.png" width="500" >
+![](./nba_shot_quality_1.png)
+
+<!-- <img src="./nba_shot_quality_1.png" width="500" > -->
 
 -  This is actually the framework for a simple shot quality model and thus name `SSQM` (sounds like a good name for a model which is very simple/basic).
 
