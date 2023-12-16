@@ -67,6 +67,10 @@ katex_auto_render = true
 [extra.translations]
 # languages = [{name = "en", url = "/"}]
 
+[extra.author]
+name = "Sravan"
+
+
 [[extra.translations.en]]
 show_more = "Read more ⟶"
 previous_page = "← Previous"
