@@ -3,6 +3,8 @@ title = "Adjusting NBA Teams' Offensive and Defensive Ratings II: using HCA and 
 date = "2023-12-26"
 description = "Adding HCA and Rest to SRS implementation"
 
+draft = true
+
 [taxonomies]
 tags = ["NBA","SoS","Team Ratings"]
 [extra.author]
