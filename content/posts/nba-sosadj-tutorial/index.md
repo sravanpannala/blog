@@ -19,7 +19,8 @@ First read my [**blog post**](https://blog.sradjoker.cc/posts/nba-sosadj/) on th
 The code for RAPM styled approach is adopted from [Ryan Davis' RAPM Tutorial](https://github.com/rd11490/NBA_Tutorials/tree/master/rapm) and I suggest you read that tutorial before continuing. 
 
 If you want to run the code yourself while reading the tutorial, you can find the notebook version of this tutorial on my github:
-https://github.com/sravanpannala/NBA-Tutorials/blob/main/sos_adjusted_ratings/how_to_adjust_nba_team_ratings_for_sos.ipynb
+
+[(https://github.com/sravanpannala/NBA-Tutorials/blob/main/sos_adjusted_ratings/how_to_adjust_nba_team_ratings_for_sos.ipynb](https://github.com/sravanpannala/NBA-Tutorials/blob/main/sos_adjusted_ratings/how_to_adjust_nba_team_ratings_for_sos.ipynb)
 
 First let's import the necessary packages to run this code:
 
@@ -730,8 +731,8 @@ def convert_to_matricies(possessions, name, teams, scale=1):
 ```
 
 ## lambda_to_alpha()
-- In stats world (`R`), `glmnet()` is used for Ridge Regression and uses the parameter $\lambda$. Most the NBA stats people use this parameter $\lambda$ for discussing the regularization parameter. But `sklearn.linear_model.RidgeCV()` has a parameter $\alpha$, which isn't the same. 
-- So we need to convert $\lambda$ to $\alpha$ needed for Ridge CV. [More details here](https://stats.stackexchange.com/questions/160096/what-are-the-differences-between-ridge-regression-using-rs-glmnet-and-pythons)
+- In stats world (`R`), `glmnet()` is used for Ridge Regression and uses the parameter \\(\lambda\\). Most the NBA stats people use this parameter \\(\lambda\\) for discussing the regularization parameter. But `sklearn.linear_model.RidgeCV()` has a parameter \\(\alpha\\), which isn't the same. 
+- So we need to convert \\(\lambda\\) to \\(\alpha\\) needed for Ridge CV. [More details here](https://stats.stackexchange.com/questions/160096/what-are-the-differences-between-ridge-regression-using-rs-glmnet-and-pythons)
 
 
 ```python
@@ -1143,6 +1144,10 @@ results = results_comb[
 results = results.sort_values(by="aNET", ascending=0).reset_index(drop=True)
 results.index = results.index + 1
 ```
+
+## Reminder
+You can find the notebook version of this tutorial on my github:
+[(https://github.com/sravanpannala/NBA-Tutorials/blob/main/sos_adjusted_ratings/how_to_adjust_nba_team_ratings_for_sos.ipynb](https://github.com/sravanpannala/NBA-Tutorials/blob/main/sos_adjusted_ratings/how_to_adjust_nba_team_ratings_for_sos.ipynb)
 
 ## Final Combined Data table:
 You can save it as `csv` file and then you some fancy visualization tool to create a [pretty looking table](https://twitter.com/SravanNBA/status/1725722980159045792) and/or [efficiency landscape graph](https://twitter.com/SravanNBA/status/1727377558176661774)
@@ -1579,5 +1584,3 @@ results
   </tbody>
 </table>
 </div>
-
-

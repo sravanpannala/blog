@@ -28,12 +28,12 @@ feed_filename = "atom.xml"
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-highlight_theme = "OneHalfLight"
-#highlight_theme = "css"
+# highlight_theme = "OneHalfLight"
+highlight_theme = "css"
 
 highlight_themes_css = [
-  { theme = "OneHalfLight", filename = "syntax-theme-light.css" },
-  { theme = "OneHalfDark", filename = "syntax-theme-dark.css" },
+  { theme = "gruvbox-dark", filename = "syntax-theme-dark.css" },
+  { theme = "gruvbox-light", filename = "syntax-theme-light.css" },
 ]
 
 [extra]
