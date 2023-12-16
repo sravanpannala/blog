@@ -12,17 +12,17 @@ social = "https://twitter.com/SravanNBA"
 
 This blog post goes through my process of adjusting NBA Teams' Offensive and Defensive Ratings for strength of schedule (SoS). This is the my first NBA post on this blog. Hopefully there will be more in the future. I'll try to update my earlier blog posts on my Medium blog [basketballobservations](https://medium.com/basketballobservations) here too. Those posts were when I was new to NBA analytics and python coding, and even blogging. I've improved a lot since and even written a few more blog posts, so hopefully the updated posts will be a lot better.
 
-# Introduction
+## Introduction
 
 In NBA we measure a team's performance by using efficiency stats such as Offensive, Defensive and Net Ratings. Earlier in a NBA season, the teams play wildly different schedules. Some teams play a lot of weak teams and some teams play a lot of hard teams. Let's say a team playing weak teams is winning by a lot. Now, how do we differentiate that team from a team playing strong teams but is winning only by a little? Also, there are teams who are facing bad luck. By bad luck I mean outlier opponent shooting etc. So adjusting the team's ratings by strength of schedule and/or luck will give us a better indicator of a team's performance than raw (unadjusted) ratings.
 
-# Motivation
+## Motivation
 This work was inspired by a tweet by [Kevin](https://twitter.com/NBACouchside). He [produced Opponent Adjusted 4-Factor ratings](https://twitter.com/NBACouchside/status/1720610641281429771) which adjust for HCA using regression of 4 Factor components with Bayesian Padding. On the same day [Krishna Narsu](https://twitter.com/knarsu3) (creator of all-in-one metric `LEBRON`), also released his [luck adjusted ratings](https://twitter.com/knarsu3/status/1611511553588600832) which uses both 4 factors and shot quality data. The method used by him for adjustment was [Nathan Walkers's](https://twitter.com/bbstats) LeHigh method. I tried looking into how these were done but quickly realized that I was out of my depth and have to start with something more simple. And the approach I went with is literally called simple rating system (SRS). Approximately 10 days after Krishna's and Kevin's tweets, I found another [adjusted ratings tweet](https://twitter.com/JerryEngelmann/status/1723566732038799456) using a SRS approach, this time by [Jerry](https://twitter.com/JerryEngelmann) who is the creator of ESPN's Real Plus Minus. I replied to asking how the adjustments were done, and he helped me with getting my algorithm for estimating the adjusted ratings set up.  You can find our conversation [here](https://x.com/SravanNBA/status/1724250684181348458?s=20).
 
-# SRS Method
+## SRS Method
 So, what exactly is the SRS approach? The original page on basketball-reference's website is unavailable but you can find the archived version [here](https://web.archive.org/web/20161031224357/http://www.pro-football-reference.com/blog/index4837.html). Please read that article if you want to know the details and math, because I won't do through them here. 
 
-# Modified SRS Method
+## Modified SRS Method
 The approach used in the article, works on adjusting the net ratings for SoS but not for offensive and defensive ratings. So, Jerry suggested this approach:
 > 2 rows per game, double the variables (team-off, team-def). Instead of point differential use offensive efficiency of the offensive team, in that game
 
@@ -42,7 +42,7 @@ which takes care of normalization.
 
 So, we have two of these equations per game. Now we use an RAPM style approach to set up the regression problem. 
 
-# Estimating Ratings using RAPM style approach
+## Estimating Ratings using RAPM style approach
 You can find details on RAPM and how the math problem for RAPM is formulated [here](https://squared2020.com/2017/09/18/deep-dive-on-regularized-adjusted-plus-minus-i-introductory-example/). We use the same approach here, with each stint being the game played with estimated variables here being team ratings instead of player RAPM.
 
 The regression problem is solved using Ridge-Regression method. From `scikit-learn`'s [website](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification):
@@ -63,7 +63,7 @@ Finally we can calculate Net Rating as so:
 
 $$ Team_{aNET} = Team_{aOFF} - Team_{aDEF}$$
 
-# Analyzing Results
+## Analyzing Results
 The plot below shows the fit of adjusted vs unadjusted net ratings.
 
 ![R2](./nba_sosadj_1.png)
@@ -74,19 +74,19 @@ We can see that the adjusted net ratings and unadjusted net rating are very clos
 
 Here is another table which shows how much the ratings are affected my strength of schedule. The movement (M) column in the table indicates how much the rating has moved is calculated as 
 
-$$ Movement = Adjusted Rating Rank - Unadjusted Rating Rank
+$$ Movement = Adjusted Rating Rank - Unadjusted Rating Rank $$
 
 ![Table2](./nba_sosadj_3.png)
 
 We can see that Pelicans and Rockets have lost the most on offense, while Clippers and Heat have gained the most. Similarly on defense, Bulls have lost the most, while Suns have gained the most ranks. Finally in Net rating, Mavs have gained the most while the Warriors have lost the most ranks.
 
-# Visualizing the Net Ratings: Efficiency Landscape
+## Visualizing the Net Ratings: Efficiency Landscape
 
 [Kirk Goldsberry](https://twitter.com/kirkgoldsberry) has popularized the [efficiency landscape graph](https://x.com/kirkgoldsberry/status/1728091510086742216?s=20), which is nothing but a simple plot showing offensive rating on the x axis and defensive rating on the y axis. Here is the efficiency landscape using my adjusted ratings:
 
 ![Efficiency Landscape](./nba_sosadj_4.png)
 
-# Conclusions
+## Conclusions
 Hope this blog shows what adjusted ratings are and how to do them. The code used to generate figures from this blog can be found at:
 [https://github.com/sravanpannala/NBA/blob/master/Leaderboards/nba_SOS_adj.ipynb](https://github.com/sravanpannala/NBA/blob/master/Leaderboards/nba_SOS_adj.ipynb).  
 You can also find adjusted team ratings regularly updated from [basketball reference](https://www.basketball-reference.com/leagues/NBA_2024_ratings.html#ratings) and [Dunks&Threes](https://dunksandthrees.com/).  

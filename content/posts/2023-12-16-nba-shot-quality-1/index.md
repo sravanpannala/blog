@@ -28,7 +28,7 @@ tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
 - add image
 - The different colors in hex plots shows how efficient a player is wrt league average.
 - How is does it is bins the shots into different zones and calculates the `FG%` of all shots in the zone attempted by the player. It then compares it to the league average `FG%` of all shots in the zone attempted by all players in that season.
-- Here are the shot zones and the league averages shown in Steph Curry's shot-chart for the season:
+- Here are the shot zones and the league averages shown in [Steph Curry's shot-chart](https://www.nba.com/stats/events?flag=3&CFID=33&CFPARAMS=2023-24&PlayerID=201939&ContextMeasure=FGA&Season=2023-24&section=player&sct=hex) for the season:
 
 ![](./nba_shot_quality_1.png)
 
