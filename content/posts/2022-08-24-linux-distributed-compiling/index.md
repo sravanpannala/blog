@@ -4,7 +4,8 @@ date = "2022-08-24"
 description = "Using icecream for distributed compiling to speed up package compilation times on ARM machines"
 
 [taxonomies]
-tags = ["linux","guides","arm"]
+tags = ["guides","arm"]
+categories = ["Linux"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/sradjoker"

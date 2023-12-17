@@ -7,6 +7,9 @@ draft = true
 
 [taxonomies]
 tags = ["NBA","Players","Teams","Shot Quality","SSQM"]
+[extra]
+math = true
+math_auto_render = true
 +++
 
 ## Introduction

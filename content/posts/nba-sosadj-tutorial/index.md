@@ -7,9 +7,9 @@ draft = true
 
 [taxonomies]
 tags = ["NBA","SoS","Team Ratings","Tutorial"]
-[extra.author]
-name = "Sravan"
-social = "https://twitter.com/SravanNBA"
+[extra]
+math = true
+math_auto_render = true
 +++
 
 
@@ -731,8 +731,8 @@ def convert_to_matricies(possessions, name, teams, scale=1):
 ```
 
 ## lambda_to_alpha()
-- In stats world (`R`), `glmnet()` is used for Ridge Regression and uses the parameter \\(\lambda\\). Most the NBA stats people use this parameter \\(\lambda\\) for discussing the regularization parameter. But `sklearn.linear_model.RidgeCV()` has a parameter \\(\alpha\\), which isn't the same. 
-- So we need to convert \\(\lambda\\) to \\(\alpha\\) needed for Ridge CV. [More details here](https://stats.stackexchange.com/questions/160096/what-are-the-differences-between-ridge-regression-using-rs-glmnet-and-pythons)
+- In stats world (`R`), `glmnet()` is used for Ridge Regression and uses the parameter $\lambda$. Most the NBA stats people use this parameter $\lambda$ for discussing the regularization parameter. But `sklearn.linear_model.RidgeCV()` has a parameter $\alpha$, which isn't the same. 
+- So we need to convert $\lambda$ to $\alpha$ needed for Ridge CV. [More details here](https://stats.stackexchange.com/questions/160096/what-are-the-differences-between-ridge-regression-using-rs-glmnet-and-pythons)
 
 
 ```python

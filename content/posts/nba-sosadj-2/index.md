@@ -7,9 +7,9 @@ draft = true
 
 [taxonomies]
 tags = ["NBA","SoS","Team Ratings"]
-[extra.author]
-name = "Sravan"
-social = "https://twitter.com/SravanNBA"
+[extra]
+math = true
+math_auto_render = true
 +++
 
 ## Introduction
@@ -37,13 +37,13 @@ $$ DRtg^{HCA} = \bar{DRtg}^{Home} - \bar{DRtg} $$
 
 $$ rest_i = -e^{-\Delta t_i} $$
 
-where \\(\Delta t_i\\) is number of days between games a and b. I sum this value for all games until that day, so that it includes effects of not only back to backs but also for situations like 2 games in 3 nights or 3 games in 5 nights.
+where $\Delta t_i$ is number of days between games a and b. I sum this value for all games until that day, so that it includes effects of not only back to backs but also for situations like 2 games in 3 nights or 3 games in 5 nights.
 
 So total rest for a particular game day and a team:
 
 $$ rest =  \sum_{i=1}^{n} rest_i = \sum_{i=1}^{n} -e^{-\Delta t_i} $$
 
-where `n` is number of games played by the team until that day. \\(\Delta t_i\\) are all evaluated wrt that game day.
+where `n` is number of games played by the team until that day. $\Delta t_i$ are all evaluated wrt that game day.
 
 add e^t plot
 

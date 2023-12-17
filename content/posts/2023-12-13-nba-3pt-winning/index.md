@@ -4,7 +4,8 @@ date = "2023-12-13"
 description = "Analyzing three point trends in the NBA and see how they relate to wins"
 
 [taxonomies]
-tags = ["NBA","shooting","3PT","win-loss"]
+tags = ["shooting","3PT","win-loss"]
+categories = ["NBA"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/SravanNBA"

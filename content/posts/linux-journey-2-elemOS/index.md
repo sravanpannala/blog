@@ -6,7 +6,7 @@ description = "Part 2 of how I started using Linux"
 draft = true
 
 [taxonomies]
-tags = ["linux","linux-journey"]
+tags = ["linux-journey"]
 +++
 
 This is the second blog post in a series of posts that will be documenting my Linux journey. It documents the first huge step I took when I installed Linux on actual hardware.

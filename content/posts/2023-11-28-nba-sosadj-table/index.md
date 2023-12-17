@@ -4,7 +4,8 @@ date = "2023-11-28"
 description = "Daily Updated Interactive Efficiency Landscape and Ratings Table"
 
 [taxonomies]
-tags = ["NBA","SoS","Team Ratings"]
+tags = ["strength-of-schedule","team-ratings"]
+categories = ["NBA"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/SravanNBA"

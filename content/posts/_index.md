@@ -1,6 +1,6 @@
 +++
 path = "posts"
-template = "posts.html"
+template = "pages.html"
 transparent = true
 sort_by = "date"
 insert_anchor_links = "heading"

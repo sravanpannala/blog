@@ -4,7 +4,8 @@ date = "2022-07-03"
 description = "Chronicling my linux journey"
 
 [taxonomies]
-tags = ["linux","linux-journey","WSL"]
+tags = ["linux-journey","WSL"]
+categories = ["Linux"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/sradjoker"

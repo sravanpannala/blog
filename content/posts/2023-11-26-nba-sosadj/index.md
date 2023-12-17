@@ -4,10 +4,11 @@ date = "2023-11-26"
 description = "Using Ridge Regression to implement SRS method for adjusting offensive and defensive ratings for strength of schedule"
 
 [taxonomies]
-tags = ["NBA","SoS","Team Ratings"]
-[extra.author]
-name = "Sravan"
-social = "https://twitter.com/SravanNBA"
+tags = ["strength-of-schedule","team-ratings"]
+categories = ["NBA"]
+[extra]
+math = true
+math_auto_render = true
 +++
 
 This blog post goes through my process of adjusting NBA Teams' Offensive and Defensive Ratings for strength of schedule (SoS). This is the my first NBA post on this blog. Hopefully there will be more in the future. I'll try to update my earlier blog posts on my Medium blog [basketballobservations](https://medium.com/basketballobservations) here too. Those posts were when I was new to NBA analytics and python coding, and even blogging. I've improved a lot since and even written a few more blog posts, so hopefully the updated posts will be a lot better.
@@ -49,11 +50,11 @@ The regression problem is solved using Ridge-Regression method. From `scikit-lea
 > Ridge regression addresses some of the problems of Ordinary Least Squares by imposing a penalty on the size of the coefficients. The ridge coefficients minimize a penalized residual sum of squares:
 
 $$\min_{w} || X w - y||_2^2 + \alpha ||w||_2^2$$
-where \\(X\\) is the LHS of our equation and \\(y\\) is the RHS.
-We don't know the value of regularization parameter \\(\alpha\\) here. We can estimate \\(\alpha\\) automatically using `scikit-learn`'s [Ridge-CV method](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html#sklearn.linear_model.RidgeCV) which performs Leave-One-Out Cross-Validation. Ridge-CV outputs \\(\alpha\\), the values of adjusted team offensive and defensive ratings, and finally the intercept.
+where $X$ is the LHS of our equation and $y$ is the RHS.
+We don't know the value of regularization parameter $\alpha$ here. We can estimate $\alpha$ automatically using `scikit-learn`'s [Ridge-CV method](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html#sklearn.linear_model.RidgeCV) which performs Leave-One-Out Cross-Validation. Ridge-CV outputs $\alpha$, the values of adjusted team offensive and defensive ratings, and finally the intercept.
 Here is the equation for the fit:
 $$\hat{y}(w, x) = w_0 + w_1 x_1 +  w_2 x_2$$
-where \\(w_1\\) is Team1 offensive rating, \\(w_2\\) is Team2 defensive rating, \\(\hat{y}(w, x)\\) is the actual Team1 offensive rating, and \\(w_0\\) is the intercept.  The intercept can be interpreted as the average value of offensive and defensive ratings of all teams. 
+where $w_1$ is Team1 offensive rating, $w_2$ is Team2 defensive rating, $\hat{y}(w, x)$ is the actual Team1 offensive rating, and $w_0$ is the intercept.  The intercept can be interpreted as the average value of offensive and defensive ratings of all teams. 
 We have to add the intercept value to the team ratings the algorithm spits out to get the actual values of adjusted team ratings like so:
 
 $$\hat{Team}^1_{aOFF} = w_0 + w_1 x_1$$
@@ -68,7 +69,7 @@ The plot below shows the fit of adjusted vs unadjusted net ratings.
 
 ![R2](./nba_sosadj_1.png)
 
-We can see that the adjusted net ratings and unadjusted net rating are very close to each other with an \\(r^2 = 0.986\\). But this doesn't mean that it doesn't affect the final ranking of net ratings or off/def ratings. The changes in rankings in net ratings are observed mostly in the middle of the table as can be seen in the below table:
+We can see that the adjusted net ratings and unadjusted net rating are very close to each other with an $r^2 = 0.986$. But this doesn't mean that it doesn't affect the final ranking of net ratings or off/def ratings. The changes in rankings in net ratings are observed mostly in the middle of the table as can be seen in the below table:
 
 ![Table1](./nba_sosadj_2.png)
 

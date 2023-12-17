@@ -4,7 +4,8 @@ date = "2023-11-29"
 description = "Using play-by-play data to filter possessions and estimate Euro (Transition Take) fouls"
 
 [taxonomies]
-tags = ["NBA","play-by-play","fouls"]
+tags = ["play-by-play","fouls"]
+categories = ["NBA"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/SravanNBA"

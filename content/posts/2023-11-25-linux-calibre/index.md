@@ -4,7 +4,8 @@ date = "2023-11-25"
 description = "Using Calibre to create a web server to access books anywhere in your local network"
 
 [taxonomies]
-tags = ["guides","linux","books"]
+tags = ["guides","books"]
+categories = ["Linux"]
 [extra.author]
 name = "Sravan"
 social = "https://twitter.com/sradjoker"
