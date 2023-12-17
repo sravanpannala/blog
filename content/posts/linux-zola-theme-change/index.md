@@ -6,7 +6,7 @@ description = "Ease of changing how a blog looks"
 draft = true
 
 [taxonomies]
-tags = ["linux","blogging","zola"]
+tags = ["blogging","zola"]
 categories = ["Linux"]
 [extra.author]
 name = "Sravan"
