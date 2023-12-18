@@ -8,7 +8,7 @@ tags = ["play-by-play","fouls"]
 categories = ["NBA"]
 [extra]
 toc = true
-keywords = "NBA, Analytics, Euro Foul, Transition Foul, Take Foul, play-by-play, Fastbreaks"
+keywords = "NBA, Analytics, Euro Foul, Transition Foul, Take Foul, Transition Take Foul, play-by-play, Fastbreaks"
 +++
 
 This blog is an update to my [first](https://medium.com/basketballobservations/frustration-fouls-in-the-nba-4fed20ca0075) and [second](https://medium.com/basketballobservations/euro-fouls-in-the-nba-c8d8cee7a3a8) blogs written almost three years ago. As mentioned in [my previous post](https://blog.sradjoker.cc/posts/nba-sosadj/), these posts were when I was new to NBA analytics and python coding, and even blogging. Updating them would hopefully convey my ideas better. Another reason for updating the post is to move it to my current blog, which is completely written on my computer and deployed automatically using github through cloudflare pages. You can actually find my blog on [github](https://github.com/sravanpannala/blog). It is written in markdown and the webpages are created using [zola](https://www.getzola.org/), giving me a fast and slick way for customizing the blog to my needs, instead of me confirming to Medium's workflow. 
