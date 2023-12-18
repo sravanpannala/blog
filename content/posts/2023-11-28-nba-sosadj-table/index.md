@@ -6,9 +6,10 @@ description = "Daily Updated Interactive Efficiency Landscape and Ratings Table"
 [taxonomies]
 tags = ["strength-of-schedule","team-ratings"]
 categories = ["NBA"]
-[extra.author]
-name = "Sravan"
-social = "https://twitter.com/SravanNBA"
+
+[extra]
+toc = true
+keywords = "NBA, Analytics, Net Rating, Strength of Schedule, SoS, SRS, RAPM, Adjusted Ratings, Efficiency Landscape, Interactive Table"
 +++
 
 - Updated Daily

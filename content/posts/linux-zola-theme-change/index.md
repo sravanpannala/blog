@@ -8,7 +8,4 @@ draft = true
 [taxonomies]
 tags = ["blogging","zola"]
 categories = ["Linux"]
-[extra.author]
-name = "Sravan"
-social = "https://twitter.com/sradjoker"
 +++
