@@ -8,7 +8,7 @@ tags = ["shooting","3PT","win-loss"]
 categories = ["NBA"]
 [extra]
 toc = true
-keywords = "NBA, Analytics, Shooting, Three Point Shot, 3PT, win-loss"
+keywords = "Shooting, Three Point Shot, 3PT, win-loss"
 +++
 
 ## Introduction

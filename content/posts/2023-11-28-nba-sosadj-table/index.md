@@ -9,7 +9,7 @@ categories = ["NBA"]
 
 [extra]
 toc = true
-keywords = "NBA, Analytics, Net Rating, Strength of Schedule, SoS, SRS, RAPM, Adjusted Ratings, Efficiency Landscape, Interactive Table"
+keywords = "Net Rating, Strength of Schedule, SoS, SRS, RAPM, Adjusted Ratings, Efficiency Landscape, Interactive Table"
 +++
 
 - Updated Daily

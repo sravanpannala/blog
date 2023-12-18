@@ -8,7 +8,7 @@ tags = ["linux-journey","WSL"]
 categories = ["Linux"]
 [extra]
 toc = true
-keywords = "Linux, WSL, Ubuntu, VS Code"
+keywords = "WSL, Ubuntu, VS Code"
 +++
 
 This is the first blog post in a series of posts that will be documenting my Linux journey. Let me start with how I discovered Linux and started using it.

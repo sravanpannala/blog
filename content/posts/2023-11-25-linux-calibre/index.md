@@ -8,7 +8,7 @@ tags = ["guides","books"]
 categories = ["Linux"]
 [extra]
 toc = true
-keywords = "Linux, Guides, Tutorials, books, calibre, Web server, Online Library"
+keywords = "Guides, Tutorials, Books, calibre, Web server, Online Library"
 +++
 
 After spending almost 2 months exploring the wonderful world of Linux, I got back to the reason why I started my Linux Journey. That is to create a (Calibre Web Server)[https://manual.calibre-ebook.com/server.html] which I can access on any device at home and optionally anywhere in the world. For that the first step is to install calibre using the Arch Linux package manager/ AUR helper `yay`:
