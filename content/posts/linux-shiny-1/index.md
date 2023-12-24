@@ -7,7 +7,7 @@ draft = false
 
 [taxonomies]
 tags = ["docker","docker-compose","shiny","shiny-server","R","python","Data science"]
-categories = ["Coding","Linux"]
+categories = ["Linux"]
 +++
 
 
