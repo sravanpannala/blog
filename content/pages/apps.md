@@ -2,6 +2,9 @@
 title = "Apps"
 date = "2024-01-01"
 path = "apps"
+
+[extra]
+thumbnail = "/images/Shiny-logo.png"
 +++
 
 ## NBA Apps
