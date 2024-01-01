@@ -1,15 +1,16 @@
 +++
 title = "How To: Adjusting NBA Teams' Offensive and Defensive Ratings using Strength of Schedule"
-date = "2023-12-16"
+date = "2024-01-01"
 description = "Tutorial for adjusting NBA ratings using an RAPM styled approach"
 
-draft = true
-
 [taxonomies]
-tags = ["NBA","SoS","Team Ratings","Tutorial"]
+tags = ["strength-of-schedule","team-ratings","tutorial"]
+categories = ["NBA"]
 [extra]
 math = true
 math_auto_render = true
+toc = true
+keywords = "Net Rating, Strength of Schedule, SoS, SRS, RAPM, Adjusted Ratings, Tutorial, Guide"
 +++
 
 

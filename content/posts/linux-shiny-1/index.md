@@ -6,8 +6,10 @@ description = "Documenting my journeys in developing Shiny apps, starting with s
 draft = false
 
 [taxonomies]
-tags = ["docker","docker-compose","shiny","shiny-server","R","python","Data science"]
+tags = ["docker", "docker-compose", "shiny", "shiny-server", "R", "python", "Data Science"]
 categories = ["Linux"]
+[extra]
+toc = true
 +++
 
 
@@ -28,7 +30,7 @@ Since that day, I have published many NBA analyses and visualizations on Twitter
 Also, between Nov 8 and Dec 21, 2023, I found more apps I liked:
 - [Kill/Death Ratio Tracker](https://swishlistanalytics.shinyapps.io/kd_tracker/) by [Swishlist](https://twitter.com/RealSwishList) 
 - [Player Combos](https://saurabhrane.shinyapps.io/playerCombos/) by [Saurabh Rane](https://twitter.com/SaurabhOnTap)
-- [Positive Residual's collection of Apps]So, a few days ago (Dec 21, 2023), I found enough motivation to start making Shiny apps.
+- [Positive Residual's collection of Apps](https://positiveresidual.com/apps/) So, a few days ago (Dec 21, 2023), I found enough motivation to start making Shiny apps.
 
 ## Getting Started with Shiny
 I started my Shiny journey by reading documentation and other resources to get Shiny set up. Shiny has a easy way to generate examples automatically through the command line. So, I tried some of them and was able to play with them a little. Next, I wanted to see how to deploy the example apps to the web, as it would be a trial run for when I publish the apps I would make in the future. 

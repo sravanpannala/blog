@@ -6,10 +6,12 @@ description = "Adding HCA and Rest to SRS implementation"
 draft = true
 
 [taxonomies]
-tags = ["NBA","SoS","Team Ratings"]
+tags = ["strength-of-schedule","team-ratings"]
+categories = ["NBA"]
 [extra]
 math = true
 math_auto_render = true
+toc = true
 +++
 
 ## Introduction

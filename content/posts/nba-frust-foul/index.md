@@ -2,9 +2,15 @@
 title = "Estimating Frustration Fouls in the NBA"
 date = "2023-12-01"
 description = "Using play-by-play data to filter possessions and estimate frustration fouls"
+
 draft = true
+
 [taxonomies]
-tags = ["NBA","play-by-play","fouls"]
+tags = ["play-by-play","fouls"]
+categories = ["NBA"]
+[extra]
+toc = true
+keywords = "Frustration Foul, Nikola Jokic, Transition Take Foul, play-by-play, Fastbreaks"
 +++
 
 ## Introduction
