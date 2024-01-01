@@ -56,11 +56,13 @@ menu = [
     # {url = "categories/NBA", name = "NBA", slash = true, blank = false, size="s110"},
     # {url = "categories/Linux", name = "Linux", slash = true, blank = false, size="s110"},
     {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
+    {url = "apps", name = "Apps", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
     {url = "about", name = "About", slash = true, blank = false},
     {url = "now", name = "Now", slash = true, blank = false},
     {url = "uses", name = "Uses", slash = true, blank = false},
+    {url = "apps", name = "Apps", slash = true, blank = false},
     # {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true},
 ]
 
