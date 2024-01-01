@@ -1,6 +1,6 @@
 +++
 title = "How I started making Shiny apps for visualizing NBA Data, Part I: Shiny Server"
-date = "2024-12-24"
+date = "2023-12-24"
 description = "Documenting my journeys in developing Shiny apps, starting with self-hosting Shiny apps using a custom-built Docker image."
 
 draft = false
