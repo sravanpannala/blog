@@ -16,7 +16,7 @@ Three-point shooting is everywhere in the NBA currently. Teams are attempting an
 
 <!-- ![](./nba_3pt_winning_1.png) -->
 
-<img src="./nba_3pt_winning_1.png" width="500" height="400" ">
+<img src="./nba_3pt_winning_1.png" width="500" height="400">
 
 3PA per game was around 22 in 2014-15 and increased yearly till the 2021-22 season. The 3PA per game since has stabilized to a value between 34-35 per game. Meanwhile, the accuracy of 3PT shots hasn't changed drastically over the years, fluctuating between 35 and 37%:
 
