@@ -6,10 +6,11 @@ description = "Documenting my journeys in developing Shiny apps, starting with s
 draft = false
 
 [taxonomies]
-tags = ["docker", "docker-compose", "shiny", "shiny-server", "R", "python", "Data Science"]
+tags = ["docker", "shiny"]
 categories = ["Linux"]
 [extra]
 toc = true
+keywords = "docker, docker-compose, shiny, shiny-server, R, python, Data Science"
 +++
 
 
