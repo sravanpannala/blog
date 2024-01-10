@@ -6,7 +6,7 @@ description = "Documenting my journeys in developing Shiny apps, starting with s
 draft = false
 
 [taxonomies]
-tags = ["docker", "shiny"]
+tags = ["docker", "shiny", "apps"]
 categories = ["Linux"]
 [extra]
 toc = true
