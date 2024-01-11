@@ -13,7 +13,9 @@ keywords = "NBA, WNBA, apps, webapps, shiny"
 toc = true
 +++
 
-If you want to add apps to this database, please submit a Pull Request on my  [blog repo](https://github.com/sravanpannala/blog/) on this [file](https://github.com/sravanpannala/blog/blob/main/content/posts/nba-apps-db/index.md) or send me a Direct Message on Twitter [@SravanNBA](https://twitter.com/SravanNBA)
+This database has a list of apps related to NBA Data and Visualizations. 
+
+If you want to add apps to this database or improve it, please submit a Pull Request on my [Github repo](https://github.com/sravanpannala/blog/) via this [file](https://github.com/sravanpannala/blog/blob/main/content/posts/nba-apps-db/index.md) or send me a Direct Message on Twitter [@SravanNBA](https://twitter.com/SravanNBA)
 
 ## Analysis/Data
 
