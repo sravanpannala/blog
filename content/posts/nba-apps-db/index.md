@@ -17,10 +17,14 @@ This database has a list of apps related to NBA Data and Visualizations.
 
 If you want to add apps to this database or improve it, please submit a Pull Request on my [Github repo](https://github.com/sravanpannala/blog/) via this [file](https://github.com/sravanpannala/blog/blob/main/content/posts/nba-apps-db/index.md) or send me a Direct Message on Twitter [@SravanNBA](https://twitter.com/SravanNBA)
 
+
 ## Analysis/Data
+Data, stats and analysis related apps
 
 - [LEBRON Application](https://www.bball-index.com/lebron-application/) by [Krishna Narsu](https://twitter.com/knarsu3) & [Nate Hawkins](https://twitter.com/natehawk2) for [BBall Index](https://twitter.com/The_BBall_Index)
 - [DARKO](https://apanalytics.shinyapps.io/DARKO/) by [Kostya Medvedovsky](https://twitter.com/kmedved) & [Andrew Patton](https://twitter.com/anpatt7)
+- [DRIP: Stats and Player Projections](https://theanalyst.com/na/2021/10/nba-stats-and-player-projections/) by [Opta Analyst](https://twitter.com/OptaAnalyst)
+- [NBA Predictions](https://theanalyst.com/na/2023/12/nba-predictions-2023-24/) by [Opta Analyst](https://twitter.com/OptaAnalyst)
 - [NBA Calendar](https://positiveresidual.com/shiny/nba/) by [Positive Residual](https://twitter.com/presidual)
 - [NBA wOCVA (similar to WAR)](https://tbeckmann.shinyapps.io/NBAwOCVA202324/) by [Tristan Bekmann](https://twitter.com/TBeckmann24)
 - [NBA Elo Rater](https://apanalytics.shinyapps.io/nba-elo/) by [Andrew Patton](https://twitter.com/anpatt7)
@@ -36,6 +40,7 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 
 
 ## Visualization
+Data visualization related apps
 
 - [Play Types App](https://www.bball-index.com/play-types-app/) by [Burak Can Koc](https://twitter.com/burakcankoc) for [BBall Index](https://twitter.com/The_BBall_Index)
 - [Rotation Minutes App](https://www.bball-index.com/minutes-app/) by [Burak Can Koc](https://twitter.com/burakcankoc) for [BBall Index](https://twitter.com/The_BBall_Index)
@@ -54,6 +59,7 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 - ^[Two Man Game](https://stadiumspeak.shinyapps.io/Two-Man-Game/) by [Mark Cheung](https://twitter.com/MarkC_NBA)
 
 ## Draft
+Draft related apps
 
 - [DEEP NBA Draft](https://braydengerrard.shinyapps.io/Draft_Scores/) by [Brayden Gerrard](https://twitter.com/braydengerrard)
 - [NBA Draft value](https://mccadep8r.shinyapps.io/NBA_Draft_Value/) by [McCade Pearson](https://twitter.com/McCadeP8)
@@ -65,6 +71,7 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 - ^[NBA Draft Early Entrant Outcomes](https://pzanca.shinyapps.io/nba_draft_early_entrant_outcomes/) by [Peter Zanca](https://twitter.com/Peter_Zanca)
 
 ## Fun
+Fun apps
 
 - [NBA Pickup Comparison Finder](https://shiny.sradjoker.cc/NBA-Comparison-Tool/) by [Sravan Pannala](https://twitter.com/SravanNBA)
 - [NBA Box Scorigami](https://shiny.sradjoker.cc/NBA-Scorigami/) by [Sravan Pannala](https://twitter.com/SravanNBA)
@@ -72,14 +79,25 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 - ^[NBA League Pass Schedule Maker](https://pzanca.shinyapps.io/league_pass_schedule_maker/) by [Peter Zanca](https://twitter.com/Peter_Zanca)
 
 ## Misc
-
+Other apps
 - [NBA First Basket Props](https://jimtheflash.shinyapps.io/first_basket_props/) by [jimtheflash](https://twitter.com/jimtheflash/)
 
-
 ## WNBA
-
+WNBA apps
 - [WNBA Dashboard](https://www.positiveresidual.com/shiny/wnba/) by [Positive Residual](https://twitter.com/presidual)
 
+## Websites
+Stats and Visualization related websites which offer much more than apps
+
+- [Center's Culture: Standings & WPA](https://www.centersculture.com/) by [Mitty](https://twitter.com/MittyRockets)
+- [bucketlist: Stats linked to play by play videos](https://bucketlist.fans/) by [Bucket List Fans](https://twitter.com/bucketlistfans)
+- [PivotFade: NBA Player-Focused Stats: Discover detailed shot charts, assist networks, top player performances, and live scores](https://pivotfade.com/) by [PivotFade](https://twitter.com/PivotFade)
+- [Crafted NBA: Curated Advanced Stats](https://craftednba.com/) by [craftedNBA](https://twitter.com/craftedNBA)
+- [PBPstats: Play by Play Data](https://www.pbpstats.com/) by [Darryl Blackport](https://twitter.com/bballport)
+- [inpredictable: Win Probabilities, Shot Tracking, Clutch Player Ranking and more](https://www.inpredictable.com/) by [Mike Beuoy](https://twitter.com/inpredict)
+- [EPM (Estimated Plus Minus) and more](https://dunksandthrees.com/) by [Taylor Snarr](https://twitter.com/taylor_snarr)
+- [Cleaning the Glass: Garbage time filtered stats](https://cleaningtheglass.com/) by [Ben Falk](https://twitter.com/bencfalk)
+- [TeamRankings: NBA Rankings, Projections, Matchups, Schedules and more](https://www.teamrankings.com/nba) by [TeamRankings](https://twitter.com/TeamRankings)
 
 ## Legend
 
