@@ -59,6 +59,7 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 - [NBA Draft value](https://mccadep8r.shinyapps.io/NBA_Draft_Value/) by [McCade Pearson](https://twitter.com/McCadeP8)
 - [NBA Draft Model](https://nkal11.shinyapps.io/NBADraftModel/) by [Nick Kalinowski](https://twitter.com/kalidrafts)
 - [Draft Combine App](https://stadiumspeak.shinyapps.io/DraftCombineApp/) by [Mark Cheung](https://twitter.com/MarkC_NBA)
+- [Combine Score](https://njk11.pythonanywhere.com/) by [Nick Kalinowski](https://twitter.com/kalidrafts)
 - ^[2022 NBA Draft App](https://dsamangy.shinyapps.io/2022_NBA_Draft_App/) by [Dom Samangy](https://twitter.com/DSamangy)
 - ^[NBA Prospect Similarity App](https://amicsta.shinyapps.io/nba_prospect_sim/) by [Anthony Amico](https://twitter.com/amicsta)
 - ^[NBA Draft Early Entrant Outcomes](https://pzanca.shinyapps.io/nba_draft_early_entrant_outcomes/) by [Peter Zanca](https://twitter.com/Peter_Zanca)
