@@ -20,7 +20,7 @@ If you want to add apps to this database or improve it, please submit a Pull Req
 ## Analysis/Data
 
 - [LEBRON Application](https://www.bball-index.com/lebron-application/) by [Krishna Narsu](https://twitter.com/knarsu3) & [Nate Hawkins](https://twitter.com/natehawk2) for [BBall Index](https://twitter.com/The_BBall_Index)
-- [DARKO](https://apanalytics.shinyapps.io/DARKO/) by [Kostya Medvedovsky]([kmedved](https://twitter.com/kmedved)) & [Andrew Patton](https://twitter.com/anpatt7)
+- [DARKO](https://apanalytics.shinyapps.io/DARKO/) by [Kostya Medvedovsky](https://twitter.com/kmedved) & [Andrew Patton](https://twitter.com/anpatt7)
 - [NBA Calendar](https://positiveresidual.com/shiny/nba/) by [Positive Residual](https://twitter.com/presidual)
 - [NBA wOCVA (similar to WAR)](https://tbeckmann.shinyapps.io/NBAwOCVA202324/) by [Tristan Bekmann](https://twitter.com/TBeckmann24)
 - [NBA Elo Rater](https://apanalytics.shinyapps.io/nba-elo/) by [Andrew Patton](https://twitter.com/anpatt7)
