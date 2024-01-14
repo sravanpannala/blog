@@ -3,6 +3,8 @@ title = "Have the New NBA Rule Changes Reduced Euro Fouls in the NBA: Foul Analy
 date = "2023-11-29"
 description = "Using play-by-play data to filter possessions and estimate Euro (Transition Take) fouls"
 
+draft = false
+
 [taxonomies]
 tags = ["play-by-play","fouls"]
 categories = ["NBA"]

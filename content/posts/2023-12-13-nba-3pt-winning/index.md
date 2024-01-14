@@ -3,8 +3,10 @@ title = "Importance of the 3 Point Shot: How does 3 Point Shooting Relate to Win
 date = "2023-12-13"
 description = "Analyzing three point trends in the NBA and see how they relate to wins"
 
+draft = false
+
 [taxonomies]
-tags = ["shooting","3PT","win-loss"]
+tags = ["shooting","3PT","win-loss","trends"]
 categories = ["NBA"]
 [extra]
 toc = true

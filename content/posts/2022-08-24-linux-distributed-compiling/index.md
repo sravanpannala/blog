@@ -3,6 +3,8 @@ title = "Distributed Cross-compiling using Icecream"
 date = "2022-08-24"
 description = "Using icecream for distributed compiling to speed up package compilation times on ARM machines"
 
+draft = false
+
 [taxonomies]
 tags = ["guides","arm"]
 categories = ["Linux"]

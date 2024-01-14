@@ -3,6 +3,8 @@ title = "My Linux Journey 1: WSL"
 date = "2022-07-03"
 description = "Chronicling my linux journey"
 
+draft = false
+
 [taxonomies]
 tags = ["linux-journey","WSL"]
 categories = ["Linux"]

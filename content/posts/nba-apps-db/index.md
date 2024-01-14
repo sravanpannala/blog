@@ -40,6 +40,7 @@ Data, stats and analysis related apps
 - ^[Gravity](https://apanalytics.shinyapps.io/Gravity/) by [Andrew Patton](https://twitter.com/anpatt7)
 - ^[Pareto](https://apanalytics.shinyapps.io/pareto/) by [Andrew Patton](https://twitter.com/anpatt7)
 - ^[SHNORP](https://apanalytics.shinyapps.io/SHNORP/) by [Andrew Patton](https://twitter.com/anpatt7)
+- [RAPM: 1,3 and 5 year](https://psteve.shinyapps.io/RAPM/) by [Preston Stevenson](https://twitter.com/PrestonS2023)
 
 
 ## Visualization
@@ -60,6 +61,7 @@ Data visualization related apps
 - [Shooting Mechanics App](https://davidsajdak8.shinyapps.io/shooting_similarity/) by [David Sajdak](https://twitter.com/davidsajdak8)
 - ^[Star Tracks](https://crumpledpaperjumper.shinyapps.io/StarTracks/) by [Todd Whitehead](https://twitter.com/CrumpledJumper)
 - ^[Two Man Game](https://stadiumspeak.shinyapps.io/Two-Man-Game/) by [Mark Cheung](https://twitter.com/MarkC_NBA)
+- [NBA Lineups Trends](https://shiny.sradjoker.cc/NBA-Lineups-Trends/) by [Sravan Pannala](https://twitter.com/SravanNBA) and [Shamit Dua](https://twitter.com/FearTheBrown)
 
 ## Draft
 Draft related apps
@@ -76,7 +78,7 @@ Draft related apps
 ## Fun
 Fun apps
 
-- [NBA Pickup Comparison Finder](https://shiny.sradjoker.cc/NBA-Comparison-Tool/) by [Sravan Pannala](https://twitter.com/SravanNBA)
+- [NBA Pickup Comparison Finder](https://shiny.sradjoker.cc/NBA-Comparison-Tool/) by [Sravan Pannala](https://twitter.com/SravanNBA) and [automaticnba](https://twitter.com/automaticnba/)
 - [NBA Box Scorigami](https://shiny.sradjoker.cc/NBA-Scorigami/) by [Sravan Pannala](https://twitter.com/SravanNBA)
 - [Final Fourdle](https://crumpledpaperjumper.shinyapps.io/NBANerdle/) by [Todd Whitehead](https://twitter.com/CrumpledJumper)
 - ^[NBA League Pass Schedule Maker](https://pzanca.shinyapps.io/league_pass_schedule_maker/) by [Peter Zanca](https://twitter.com/Peter_Zanca)

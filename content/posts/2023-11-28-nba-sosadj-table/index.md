@@ -3,6 +3,8 @@ title = "NBA Strength of Schedule Adjusted Ratings Landscape and Table"
 date = "2023-11-28"
 description = "Daily Updated Interactive Efficiency Landscape and Ratings Table"
 
+draft = false
+
 [taxonomies]
 tags = ["strength-of-schedule","team-ratings"]
 categories = ["NBA"]
