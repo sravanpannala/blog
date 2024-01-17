@@ -71,7 +71,7 @@ The table below shows detailed stats of the same information. The percentages sh
 |  5 |          23 |     134 |    157 |     1 |    59 |   116 |   244 |   539 |   130 |
 
 
-We can see that the mode(50th percentile) game # to reach positive DPM for all ages is very similar, ranging from 100-116 games. This means a player can be a positive player within 1.5 seasons of their career in the NBA. The 25th percentile values show that 19-year-olds first took 38 games. 23-year-olds are slowest here, taking 59 games. 75th percentile values take anywhere between 185 to 244 games, which turns out to be in the 3rd season of NBA careers.
+We can see that the median(50th percentile) game # to reach positive DPM for all ages is very similar, ranging from 100-116 games. This means a player can be a positive player within 1.5 seasons of their career in the NBA. The 25th percentile values show that 19-year-olds first took 38 games. 23-year-olds are slowest here, taking 59 games. 75th percentile values take anywhere between 185 to 244 games, which turns out to be in the 3rd season of NBA careers.
 So, 75% of drafted NBA players turn out to be positive players within three seasons. This result is so interesting to me because of this take I have had for so many years now:
 > I always say that we have to take at least 3 years to decide whether a young player is good or not. I evaluate young players only after they spend 3 seasons in the NBA.
 
@@ -120,9 +120,9 @@ The table below shows detailed stats of the same information. The percentages sh
 |  4 |          22 |     293 |    0.4 |  -2.8 |  -1   |   0.1 |   1.4 |  10.4 |   1.8 |
 |  5 |          23 |     319 |   -0.1 |  -3.3 |  -1.3 |  -0.3 |   0.8 |   6.5 |   1.6 |
 
-The mode (50% percentile) is highest for 20-year-olds with a value of 0.6. Otherwise, the mode for max DPM decreases with age 19-23 years, with only 23-year-olds having a negative value. We can also see that the variance in maximum DPM decreases with age. That is, younger drafted players have a higher variability in peak performance than older drafted players. This makes sense as young players come into the league raw and generally have to be developed to reach their peak performance. Meanwhile, older players come into the league more polished, having spent their developmental years in college/elsewhere, and their development in the league is minimal.
+The median (50% percentile) is highest for 20-year-olds, with a value of 0.6. Otherwise, the median for max DPM decreases with age 19-23 years, with only 23-year-olds having a negative value. We can also see that the variance in maximum DPM decreases with age. That is, younger drafted players have a higher variability in peak performance than older drafted players. This makes sense as young players come into the league raw and generally have to be developed to reach their peak performance. Meanwhile, older players come into the league more polished, having spent their developmental years in college/elsewhere, and their development in the league is minimal.
 
-Now we look at the mode (50% percentile) of maximum DPM sorted by Pick numbers as we did in previous sections:
+Now we look at the median (50% percentile) of maximum DPM sorted by Pick numbers as we did in previous sections:
 
 <img src="./nba_draft_age_5.png" width="640" height="480">
 
