@@ -17,7 +17,7 @@ keywords = "docker, docker-compose, shiny, shiny-server, R, python, Data Science
 ## Introduction
 
 I keep seeing good Shiny apps from the NBA Analytics community and find them cool. Some of them are:
-- [Darko](https://apanalytics.shinyapps.io/DARKO/) by [Kostya Medvedovsky]([kmedved](https://twitter.com/kmedved)) & [Andrew Patton](https://twitter.com/anpatt7)
+- [Darko](https://apanalytics.shinyapps.io/DARKO/) by [Kostya Medvedovsky](https://twitter.com/kmedved) & [Andrew Patton](https://twitter.com/anpatt7)
 - [Game of Runs](https://ramirobentes.shinyapps.io/gameofruns/) by [Ramiro Bentes](https://twitter.com/NbaInRstats)
 
 ### Learning R

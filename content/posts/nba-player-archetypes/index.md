@@ -11,4 +11,7 @@ tags = ["NBA","Players","Archetypes","Classifying","KMeans Clustering","Synergy"
 
 # References
 - Todd Whitehead 3 articles 
-- 
+- [text](https://fansided.com/2017/08/09/nylon-calculus-ranking-best-worst-scorers-every-offensive-role/)
+- [text](https://fansided.com/2018/10/15/nylon-calculus-defining-23-offensive-roles-nba-play-type-data/)
+- [text](https://fansided.com/2019/05/29/nylon-calculus-grouping-players-offensive-role-again/)
+- [text](https://public.tableau.com/app/profile/todd.whitehead/viz/OffensiveRolesbyPlayTypes-Clustering/Summary)
