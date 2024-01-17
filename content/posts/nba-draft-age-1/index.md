@@ -37,12 +37,13 @@ After choosing the evaluation metric, I had to decide how to use it. I first wan
 
 > A player is considered successful if he reached a value of DPM>=0 at least once in his career
 
-As a RAPM-based metric, DPM is regularized at 0, i.e., the average value of DPM for the league is 0. A player with a DPM of zero can be considered a league-average player. 
-So, if a player is league-average for at least one game, I consider his career successful. So, approximately 50% of players in the NBA will be successful. 
+As a RAPM-based metric, DPM is regularized at 0, i.e., the average (mean and not median) value of DPM for the league is 0. A player with a DPM of zero can be considered a positive player on the court. Positive players comprise approximately 1/3 of the active players in the NBA. So, if a player is a positive player for at least one game, I consider his career successful.
+
+DARKO is predictive in nature:
 
 > DARKO considers every NBA game a player has ever played in making its projections, weighing each game as appropriate based on recency, with the weights varying by stat being projected.
 
-The project aspect of DARKO is another reason why it is a suitable method for this style of analysis. The player is projected to have a league-average impact for the next game if he has a DPM value of 0. 
+The projection aspect of DARKO is another reason why it is a suitable method for this style of analysis. The player is projected to have a positive impact on the next game if he has a DPM value of 0. 
 
 The second evaluation method I choose is the player's peak performance. The value of maximum DPM throughout his career gives us a reasonable estimate of the player's peak performance. So, in this study, I will evaluate the peak impact of the player, in addition to the player's just being successful.
 
@@ -95,7 +96,7 @@ We see that players picked from 1-5 in the 1st round have a very high success ra
 
 > I see a high bust potential of very young players drafted in mid-late lottery. Historic data shows that teams are better off drafting 20-year-olds with those picks.
 
-Players drafted between picks 15-21 have a success rate between 55-60%, except for 23-year-olds, who have a lower rate at 50%. Similarly, players drafted between picks 22-30 have a success rate of ~58 across different age groups, except for 23-year-olds, who have a lower rate at 52%. It's interesting to see that players with non-lottery draft picks (i.e., Picks 15-30) have similar success rates.
+Players drafted between picks 15-21 have a success rate between 55-60%, except for 23-year-olds, who have a lower rate at 50%. Similarly, players drafted between picks 22-30 have a success rate of ~58% across different age groups, except for 23-year-olds, who have a lower rate of 52%. It's interesting to see that players with non-lottery draft picks (i.e., Picks 15-30) have similar success rates.
 In general, older players (22, 23-year-olds) drafted in non-lottery 1st round over-perform average success rate, while the younger players are at the average success rate. 
 
 In the second round, the only group with a success rate above 50% is the 19-year-olds drafted in picks 1-9, with a value of 54%.
