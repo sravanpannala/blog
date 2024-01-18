@@ -57,7 +57,7 @@ First, I study the number of successful players sorted by the draft age. The age
 Players drafted at the age of 20 have the highest success rate at 62.8%, followed by players drafted at 19 with 59.7%.
 The success rate then drops every age from 21 to 23, with 23-year-olds only having a success rate of 41.4%
 
-Here is the boxplot of career games taken to reach the positive DPM value, i.e., DPM>=0. Career games taken to reach positive DPM value measure how long a player takes to become productive. 
+Here is the [boxplot](https://builtin.com/data-science/boxplot) of career games taken to reach the positive DPM value, i.e., DPM>=0. Career games taken to reach positive DPM value measure how long a player takes to become productive. 
 
 <img src="./nba_draft_age_2.png" width="640" height="480">
 
@@ -142,7 +142,7 @@ A surprising result is with picks 6-14, players with draft age 22 are the most p
 In this study, I analyze the success rate and peak performance of drafted NBA players with draft age as the primary sorting mechanism. Further effects of what pick number the player is drafted at (a measure of talent) are also analyzed. I have shown that the initial premise I started the study on is wrong and that older players who are more productive in the NBA are few and far between. 
 
 I want to thank [Crow](https://twitter.com/bballstrategy), [Kostya Medvedovsky](https://twitter.com/kmedved), and [Krishna Narsu](https://twitter.com/knarsu3), whose discussions and inputs were valuable to this study. 
-Thank you for reading, and any feedback is appreciated. You can reach me on Twitter at [@SravanNBA](https://twitter.com/SravanNBA).
+Thank you for reading, and any feedback is appreciated. You can reach me on Twitter at [@SravanNBA](https://twitter.com/SravanNBA). Retweets and other forms of sharing this article are welcome and appreciated.
 
 ## Additional Reading
 - [What is the best way to draft?](https://www.bourbonstreetshots.com/2020/07/28/what-is-the-best-way-to-draft/) by [Shamit Dua](https://twitter.com/FearTheBrown)
