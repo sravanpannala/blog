@@ -1,5 +1,5 @@
 +++
-title = "NBA Draft Age Analysis I: Are Players Drafted at a Young Age Productive"
+title = "NBA Draft Prospect Age Analysis I"
 date = "2024-01-20"
 description = "Analyzing the productivity of young and older draft prospects in the NBA"
 
@@ -13,12 +13,14 @@ toc = true
 keywords = ""
 +++
 
+### Analyzing the productivity of young and older draft prospects in the NBA
+
 This blog post is Part I of a series of draft analysis articles I plan to write. The main goal of this study is to analyze the productivity of players drafted at different ages. 
 
 ## Introduction
 This study was inspired by a [discussion](https://twitter.com/bballstrategy/status/1739082125054459906) I found on Twitter by [Crow](https://twitter.com/bballstrategy),  [Chucking Darts](https://twitter.com/ChuckingDarts), and [Nathan Grubel](https://twitter.com/DraftDeeper). The beginning point of their conversation was the excellent play of [Craig Porter [Jr.](https://twitter.com/StephNoh/status/1738926975824150849), an old undrafted rookie, playing for the Cleveland Cavaliers. Here is another [thread](https://twitter.com/bballstrategy/status/1739324759274639486) by Crow, expanding on the earlier discussion, making the case for teams to draft older, more productive players earlier in the draft, leading to me thinking that:
 
-> NBA teams are addicted to potential and not production
+> NBA teams are addicted to potential and not production.
 
 So, I started an analysis to see if I could make a case for teams to draft older players earlier in the draft. 
 Due to further discussions with [Crow](https://twitter.com/bballstrategy), this analysis eventually evolved into something much more.
@@ -35,7 +37,7 @@ The metric I finally landed on was DARKO (DPM) due to the following reasons:
 
 After choosing the evaluation metric, I had to decide how to use it. I first wanted to check if the draft pick was a success, i.e., if the player was successful in his career. I define success as:
 
-> A player is considered successful if he reached a value of DPM>=0 at least once in his career
+> A player is considered successful if he reached a value of DPM>=0 at least once in his career.
 
 As a RAPM-based metric, DPM is regularized at 0, i.e., the average (mean and not median) value of DPM for the league is 0. A player with a DPM of zero can be considered a positive player on the court. Positive players comprise approximately 1/3 of the active players in the NBA. So, if a player is a positive player for at least one game, I consider his career successful.
 
@@ -141,12 +143,12 @@ A surprising result is with picks 6-14, players with draft age 22 are the most p
 
 In this study, I analyze the success rate and peak performance of drafted NBA players with draft age as the primary sorting mechanism. Further effects of what pick number the player is drafted at (a measure of talent) are also analyzed. Here are some of the takeaways:
 
-- 75% of drafted NBA players turn out to be positive players within three seasons
+- 75% of drafted NBA players turn out to be positive players within three seasons.
 - I see a high bust potential of very young players drafted in the mid to late lottery.
-- On average, older drafted players (22,23 year-olds) are less productive than younger drafted players, but draft position matters for the age comparison. 
+- On average, older drafted players (22-23 year-olds) are less productive than younger drafted players, but draft position matters for the age comparison. 
 - Older players drafted at picks 1-5 have an 80% success rate, while those drafted at picks 6-15 have a 70% success rate, similar to players drafted at other ages at those picks.
 
-> This means that older drafted players have a pathway to be successful, especially if they are talented enough to be drafted in the lottery. Hence,  a simple, exclusive bias toward younger players does not always bear out
+> This means that older drafted players have a pathway to be successful, especially if they are talented enough to be drafted in the lottery. Hence,  a simple, exclusive bias toward younger players does not always bear out.
 
 I want to thank [Crow](https://twitter.com/bballstrategy), [Kostya Medvedovsky](https://twitter.com/kmedved), and [Krishna Narsu](https://twitter.com/knarsu3), whose discussions and inputs were valuable to this study. 
 Thank you for reading, and any feedback is appreciated. You can reach me on Twitter at [@SravanNBA](https://twitter.com/SravanNBA). Retweets and other forms of sharing this article are welcome and appreciated.

@@ -15,3 +15,5 @@ thumbnail = "/images/Shiny-logo.png"
    Fun app to see different combinations of NBA player stats visualized in 2048 style grids
 3. [NBA Distributions and Trends](https://www.bball-index.com/nba-player-stat-distribution-trends/):
    Plotting Density & Trends for various boxscores stats
+4. [NBA Lineups Trends](https://shiny.sradjoker.cc/NBA-Lineups-Trends/): 
+   Plots Lineup Trends for several 2023-24 Regular Season stats.
