@@ -62,6 +62,7 @@ Data visualization related apps
 - ^[Star Tracks](https://crumpledpaperjumper.shinyapps.io/StarTracks/) by [Todd Whitehead](https://twitter.com/CrumpledJumper)
 - ^[Two Man Game](https://stadiumspeak.shinyapps.io/Two-Man-Game/) by [Mark Cheung](https://twitter.com/MarkC_NBA)
 - [NBA Lineups Trends](https://shiny.sradjoker.cc/NBA-Lineups-Trends/) by [Sravan Pannala](https://twitter.com/SravanNBA) and [Shamit Dua](https://twitter.com/FearTheBrown)
+- ^[NBA Comeback](https://albertkuo.shinyapps.io/nba_comeback/) by [Albert Kuo](https://twitter.com/albert_kuo)
 
 ## Draft
 Draft related apps
