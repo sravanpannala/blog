@@ -16,12 +16,12 @@ toc = true
 This database has a list of apps and websites related to NBA Data and Visualizations. 
 
 If you want to add apps to this database or improve it, please
-
 - Contact me on Twitter [@SravanNBA](https://twitter.com/SravanNBA)
 - or Submit a Pull Request on my [Github repo](https://github.com/sravanpannala/blog/) via this [file](https://github.com/sravanpannala/blog/blob/main/content/posts/nba-apps-db/index.md) 
 
-## Analysis/Data
 
+
+## Analysis/Data
 Data, stats and analysis related apps
 
 - [LEBRON Application](https://www.bball-index.com/lebron-application/) by [Krishna Narsu](https://twitter.com/knarsu3) & [Nate Hawkins](https://twitter.com/natehawk2) for [BBall Index](https://twitter.com/The_BBall_Index)
@@ -42,8 +42,8 @@ Data, stats and analysis related apps
 - ^[SHNORP](https://apanalytics.shinyapps.io/SHNORP/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [RAPM: 1,3 and 5 year](https://psteve.shinyapps.io/RAPM/) by [Preston Stevenson](https://twitter.com/PrestonS2023)
 
-## Visualization
 
+## Visualization
 Data visualization related apps
 
 - [Play Types App](https://www.bball-index.com/play-types-app/) by [Burak Can Koc](https://twitter.com/burakcankoc) for [BBall Index](https://twitter.com/The_BBall_Index)
@@ -62,10 +62,8 @@ Data visualization related apps
 - ^[Star Tracks](https://crumpledpaperjumper.shinyapps.io/StarTracks/) by [Todd Whitehead](https://twitter.com/CrumpledJumper)
 - ^[Two Man Game](https://stadiumspeak.shinyapps.io/Two-Man-Game/) by [Mark Cheung](https://twitter.com/MarkC_NBA)
 - [NBA Lineups Trends](https://shiny.sradjoker.cc/NBA-Lineups-Trends/) by [Sravan Pannala](https://twitter.com/SravanNBA) and [Shamit Dua](https://twitter.com/FearTheBrown)
-- ^[NBA Comeback](https://albertkuo.shinyapps.io/nba_comeback/) by [Albert Kuo](https://twitter.com/albert_kuo)
 
 ## Draft
-
 Draft related apps
 
 - [DEEP NBA Draft](https://braydengerrard.shinyapps.io/Draft_Scores/) by [Brayden Gerrard](https://twitter.com/braydengerrard)
@@ -78,7 +76,6 @@ Draft related apps
 - ^[NBA Draft Early Entrant Outcomes](https://pzanca.shinyapps.io/nba_draft_early_entrant_outcomes/) by [Peter Zanca](https://twitter.com/Peter_Zanca)
 
 ## Fun
-
 Fun apps
 
 - [NBA Pickup Comparison Finder](https://shiny.sradjoker.cc/NBA-Comparison-Tool/) by [Sravan Pannala](https://twitter.com/SravanNBA) and [automaticnba](https://twitter.com/automaticnba/)
@@ -87,19 +84,14 @@ Fun apps
 - ^[NBA League Pass Schedule Maker](https://pzanca.shinyapps.io/league_pass_schedule_maker/) by [Peter Zanca](https://twitter.com/Peter_Zanca)
 
 ## Misc
-
 Other apps
-
 - [NBA First Basket Props](https://jimtheflash.shinyapps.io/first_basket_props/) by [jimtheflash](https://twitter.com/jimtheflash/)
 
 ## WNBA
-
 WNBA apps
-
 - [WNBA Dashboard](https://www.positiveresidual.com/shiny/wnba/) by [Positive Residual](https://twitter.com/presidual)
 
 ## Websites
-
 Stats and Visualization related websites which offer much more than apps
 
 - [Center's Culture: Standings & WPA](https://www.centersculture.com/) by [Mitty](https://twitter.com/MittyRockets)
