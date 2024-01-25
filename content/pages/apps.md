@@ -16,4 +16,6 @@ thumbnail = "/images/Shiny-logo.png"
 3. [NBA Distributions and Trends](https://www.bball-index.com/nba-player-stat-distribution-trends/):
    Plotting Density & Trends for various boxscores stats
 4. [NBA Lineups Trends](https://shiny.sradjoker.cc/NBA-Lineups-Trends/): 
-   Plots Lineup Trends for several 2023-24 Regular Season stats.
+   Plots Lineup Trends for several 2023-24 Regular Season stats
+5. [NBA Stat Query](https://shiny.sradjoker.cc/NBA-Stat-Query/): 
+   Search for any NBA player Box Score from 1946-47 onwards.

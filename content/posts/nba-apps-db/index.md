@@ -41,6 +41,7 @@ Data, stats and analysis related apps
 - ^[Pareto](https://apanalytics.shinyapps.io/pareto/) by [Andrew Patton](https://twitter.com/anpatt7)
 - ^[SHNORP](https://apanalytics.shinyapps.io/SHNORP/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [RAPM: 1,3 and 5 year](https://psteve.shinyapps.io/RAPM/) by [Preston Stevenson](https://twitter.com/PrestonS2023)
+- [NBA Stat Query](https://shiny.sradjoker.cc/NBA-Stat-Query/) by [Sravan Pannala](https://twitter.com/SravanNBA)
 
 
 ## Visualization

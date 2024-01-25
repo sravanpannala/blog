@@ -124,7 +124,7 @@ seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twit
 
 feed = true # this adds the RSS feed icon in the footer.
 # mail = "name@example.com"
-mastodon = "@sradjoker@fosstodon.org"
+# mastodon = "@your-user-name"
 # element = "matrix.example.com"
 # buymeacoffee = "your-user-name"
 # kofi = "your-user-name"

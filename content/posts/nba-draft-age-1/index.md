@@ -156,3 +156,11 @@ Thank you for reading, and any feedback is appreciated. You can reach me on Twit
 ## Additional Reading
 - [What is the best way to draft?](https://www.bourbonstreetshots.com/2020/07/28/what-is-the-best-way-to-draft/) by [Shamit Dua](https://twitter.com/FearTheBrown)
 - [Why a player’s birthday can matter so much for college, NBA success](https://theathletic.com/3691009/2022/10/24/player-birthday-college-nba/?source=user_shared_article) by [CJ Moore](https://twitter.com/cjmoorehoops)
+
+
+This tells me non-premium 1sts are very overvalued, and premium 2nd’s are extremely undervalued
+
+early into it but already learned about 20 year olds being most successful which adds up with my observation that the first sophomore picked in the draft is one of the safest picks a team can make
+
+And that if you add the first sophomore taken that played on FIBA U19 as the oldest players in that tournament TONS of them hit. Haliburton being the best example but it's a recent development
+
