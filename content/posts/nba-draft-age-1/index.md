@@ -75,7 +75,7 @@ The table below shows detailed stats of the same information. The percentages sh
 
 
 We can see that the median(50th percentile) game number to reach positive DPM for all ages is very similar, ranging from 100-116 games. This means a player can be a positive player within 1.5 seasons of their career in the NBA. The 25th percentile values show that 19-year-olds first took 38 games. 23-year-olds are slowest here, taking 59 games. 75th percentile values take anywhere between 185 to 244 games, which turns out to be in the 3rd season of NBA careers.
-So, 75% of drafted NBA players turn out to be positive players within three seasons. This result is so interesting to me because of this take I have had for so many years now:
+So, 75% of drafted NBA players who turn out to be positive players do so within three seasons. This result is so interesting to me because of this take I have had for so many years now:
 > I always say that we have to take at least 3 years to decide whether a young player is good or not. I evaluate young players only after they spend 3 seasons in the NBA.
 
 It's nice to see the data back up my take. Also, I expected older drafted players (22, 23-year-olds) to have less variance than younger players. Surprisingly, this is true for 22-year-olds but not for 23-year-olds. In fact, 23-year-olds have the highest variance among all five age groups. Maybe this is because some older drafted players aren't talented enough to become productive players in the NBA.
@@ -143,7 +143,7 @@ A surprising result is with picks 6-14, players with draft age 22 are the most p
 
 In this study, I analyze the success rate and peak performance of drafted NBA players with draft age as the primary sorting mechanism. Further effects of what pick number the player is drafted at (a measure of talent) are also analyzed. Here are some of the takeaways:
 
-- 75% of drafted NBA players turn out to be positive players within three seasons.
+- 75% of drafted NBA players who turn out to be positive players do so within three seasons.
 - I see a high bust potential of very young players drafted in the mid to late lottery.
 - On average, older drafted players (22-23 year-olds) are less productive than younger drafted players, but draft position matters for the age comparison. 
 - Older players drafted at picks 1-5 have an 80% success rate, while those drafted at picks 6-15 have a 70% success rate, similar to players drafted at other ages at those picks.
@@ -157,6 +157,7 @@ Thank you for reading, and any feedback is appreciated. You can reach me on Twit
 - [What is the best way to draft?](https://www.bourbonstreetshots.com/2020/07/28/what-is-the-best-way-to-draft/) by [Shamit Dua](https://twitter.com/FearTheBrown)
 - [Why a player’s birthday can matter so much for college, NBA success](https://theathletic.com/3691009/2022/10/24/player-birthday-college-nba/?source=user_shared_article) by [CJ Moore](https://twitter.com/cjmoorehoops)
 
+## Notes (to be incorporated)
 
 This tells me non-premium 1sts are very overvalued, and premium 2nd’s are extremely undervalued
 
