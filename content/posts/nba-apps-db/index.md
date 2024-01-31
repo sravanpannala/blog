@@ -116,6 +116,7 @@ Working Apps but data isn't updated anymore
 - [Pareto](https://apanalytics.shinyapps.io/pareto/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [SHNORP](https://apanalytics.shinyapps.io/SHNORP/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [Whistle Stats](https://whistlestats.com/) by [Taylor Stein](https://twitter.com/taylor_stein)
+- [Adjusted Efficiency](https://www.lastnightinbasketball.com/p/adjusted-efficiency) by [Jared Dubin](https://twitter.com/JADubin5)
 
 ### Visualization
 - [Defensive Player Matchups](https://saurabhrane.shinyapps.io/player_match_up_r/) by [Saurabh Rane](https://twitter.com/SaurabhOnTap)
