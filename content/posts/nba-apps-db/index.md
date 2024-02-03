@@ -52,6 +52,8 @@ Data, stats and analysis related apps
 - [The Hustle Index](https://perthirtysix.com/nba/top-hustle-players) by [PerThirtySix.com](https://twitter.com/PerThirtySixers)
 - [Create A Custom NBA Metric](https://perthirtysix.com/nba/create-advanced-metric) by [PerThirtySix.com](https://twitter.com/PerThirtySixers)
 - [Adjusted Big TIme Scoring](https://filippos-pol.shinyapps.io/adjusted-big-time-scoring/) by [Taylor Wyman](https://twitter.com/taylormetrics) & [Filippos Polyzos](https://twitter.com/filippos_pol)
+- [Adjusted Efficiency](https://www.lastnightinbasketball.com/p/adjusted-efficiency) by [Jared Dubin](https://twitter.com/JADubin5)
+- [NBA Games and LEBRON Missed](https://www.bball-index.com/nba-injuries/) by [Sravan Pannala](https://twitter.com/SravanNBA) 
 
 ## Visualization
 Data visualization related apps
@@ -116,7 +118,6 @@ Working Apps but data isn't updated anymore
 - [Pareto](https://apanalytics.shinyapps.io/pareto/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [SHNORP](https://apanalytics.shinyapps.io/SHNORP/) by [Andrew Patton](https://twitter.com/anpatt7)
 - [Whistle Stats](https://whistlestats.com/) by [Taylor Stein](https://twitter.com/taylor_stein)
-- [Adjusted Efficiency](https://www.lastnightinbasketball.com/p/adjusted-efficiency) by [Jared Dubin](https://twitter.com/JADubin5)
 
 ### Visualization
 - [Defensive Player Matchups](https://saurabhrane.shinyapps.io/player_match_up_r/) by [Saurabh Rane](https://twitter.com/SaurabhOnTap)

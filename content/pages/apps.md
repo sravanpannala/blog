@@ -19,3 +19,5 @@ thumbnail = "/images/Shiny-logo.png"
    Plots Lineup Trends for several 2023-24 Regular Season stats
 5. [NBA Stat Query](https://shiny.sradjoker.cc/NBA-Stat-Query/): 
    Search for any NBA player Box Score from 1946-47 onwards.
+6. [NBA Games and LEBRON Missed](https://www.bball-index.com/nba-injuries/): 
+   Tracking Games Missed, Minutes Missed and LEBRON WAR Missed due to Injury, Suspensions and Personal Reasons.
