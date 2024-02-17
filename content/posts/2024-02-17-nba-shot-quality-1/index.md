@@ -3,10 +3,10 @@ title = "Introducing Simple Shot Quality Model (SSQM) v1.0"
 date = "2024-02-17"
 description = "My first attempt at creating a shot quality model using publicly available NBA data"
 
-draft = true
+draft = false
 
 [taxonomies]
-tags = ["Shot Quality","SSQM"]
+tags = ["Shooting","Shot Quality","SSQM"]
 categories = ["NBA"]
 [extra]
 math = true
