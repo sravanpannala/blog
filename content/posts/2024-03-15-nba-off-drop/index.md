@@ -70,14 +70,14 @@ This table shows which players had the largest drop in FTA:
 Interesting to see that most of this list is made of guards, including some star ones like Damian Lillard, Steph Curry, Fox, Trae Young, Haliburton and Luka Doncic. There are some forwards too including: Tatum, Hayward, Mikal, Keldon and Siakam. Only centers are Bam and Bagley.
 
 ## Change in Individual Foul Types:
-In this section we'll look at the detailed breakdown in the decrease in fouls, i.e. looking at the changes in the individual foul types. This data is obtained by parsing play-by-play and is taken from pbpbstats.com.
+In this section we'll look at the detailed breakdown in the decrease in fouls, i.e. looking at the changes in the individual foul types. This data is obtained by parsing play-by-play and is taken from pbpstats.com.
 
 <img src="./nba_off_drop_7.png" width="500" >
 
 We see that there is a 9.3 drop in both overall fouls and shooting fouls.The foul categories which have the largest drops are charges, and defensive threes seconds. This shows that more physical play is allowed to occur in the paint area.
 
 ## Change in Individual FTA Types:
-In this section we'll look at the detailed breakdown in the decrease in FTA, i.e. looking at the changes in the individual FTA types. This data is obtained by parsing play-by-play and is taken from pbpbstats.com.
+In this section we'll look at the detailed breakdown in the decrease in FTA, i.e. looking at the changes in the individual FTA types. This data is obtained by parsing play-by-play and is taken from pbpstats.com.
 
 <img src="./nba_off_drop_8.png" width="500" >
 
