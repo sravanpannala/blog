@@ -74,18 +74,18 @@ In this section we'll look at the detailed breakdown in the decrease in fouls, i
 
 <img src="./nba_off_drop_7.png" width="500" >
 
-We see that there is a 9.3 drop in both overall fouls and shooting fouls.The foul categories which have the largest drops are charges, and defensive threes seconds. This shows that more physical play is allowed to occur in the paint area.
+We see that there is a 9.3% drop in both overall fouls and shooting fouls.The foul categories which have the largest drops are charges, and defensive three seconds. This shows that more physical play is allowed to occur in the paint area.
 
 ## Change in Individual FTA Types:
 In this section we'll look at the detailed breakdown in the decrease in FTA, i.e. looking at the changes in the individual FTA types. This data is obtained by parsing play-by-play and is taken from pbpstats.com.
 
 <img src="./nba_off_drop_8.png" width="500" >
 
-We see that FTA have show a larger decrease (11.6%) compared to fouls (9.3%). There has also been a drop in non shooting fouls i.e. less fouls in the bonus up to 22%. Technical free throws also have a 22% drop. 
+We see that FTA have show a larger decrease (11.6%) compared to fouls (9.3%). There has also been a drop in non shooting fouls (22%) i.e. less fouls in the bonus. Technical free throws also have a 22% drop. 
 
 
 ## Conclusions
 
-In this article, I analyze the trends in the drop in offensive rating and find reasons behind the drop. The main reason is drop in FTA, which the drop in offensive rating is highly correlated to. I also try to analyze which team and player see the largest changes in FTA and finally analyze the drops in individual categories of fouls and FTA.
+In this article, I analyze the trends in the drop in offensive rating and find reasons behind the drop. The main reason is drop in FTA, which the drop in offensive rating is highly correlated to. I also try to analyze which teams and players see the largest changes in FTA and finally analyze the drops in individual categories of fouls and FTA.
 
 Thank you for reading, and any feedback is appreciated. You can reach me on Twitter at [@SravanNBA](https://twitter.com/SravanNBA).
