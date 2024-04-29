@@ -100,6 +100,8 @@ Fun apps
 Other apps
 - [NBA First Basket Props](https://jimtheflash.shinyapps.io/first_basket_props/) by [jimtheflash](https://twitter.com/jimtheflash/)
 - [Player Highlights and Lowlights](https://thehighlow.io/) by [The High-Low](https://twitter.com/thehighlow_NBA)
+- [NBA play-by-play Search Engine](https://nbaplaydb.com/) by [Oner Ince](https://github.com/OnerInce)
+
 
 ## WNBA
 WNBA apps
