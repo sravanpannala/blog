@@ -37,3 +37,11 @@ Another split would be performance data of these groupings on good / bad current
 ## Average Pick Results
 Finally lets visualize the same results as a function of Pick number rather than groups. 
 
+
+## Notes (to be incorporated)
+
+This tells me non-premium 1sts are very overvalued, and premium 2nd’s are extremely undervalued
+
+early into it but already learned about 20 year olds being most successful which adds up with my observation that the first sophomore picked in the draft is one of the safest picks a team can make
+
+And that if you add the first sophomore taken that played on FIBA U19 as the oldest players in that tournament TONS of them hit. Haliburton being the best example but it's a recent development
