@@ -1,7 +1,7 @@
 +++
 title = "NBA Apps Database"
 date = "2024-01-10"
-updated  = "2024-01-31"
+updated  = "2025-05-12"
 description = "Creating a public database of NBA Apps"
 
 draft = false
